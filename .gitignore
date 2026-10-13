@@ -149,3 +149,20 @@ frontend/discourse-i18n/src/index.d.ts.map
 /.cursor
 .playwright-mcp
 /frontend/discourse-types/dts-generator.js
+
+# BlackRoom instance source (production secrets and data stay outside Git)
+!/plugins/discourse-resend/
+!/plugins/discourse-doc-categories/
+!/plugins/discourse-blackroom-moderation/
+!/plugins/blackroom-mcp-images/
+!/plugins/blackroom-games/
+!/plugins/blackroom-mcp-games/
+!/plugins/docker_manager/
+/outputs/
+/work/
+**/._*
+**/__pycache__/
+**/private/
+*.pem
+*.key
+*.p12

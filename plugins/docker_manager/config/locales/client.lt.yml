@@ -1,0 +1,18 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+lt:
+  js:
+    admin:
+      docker:
+        last_updated: "Paskutinį kartą atnaujinta:"
+        outdated_notice: "Prašome atnaujinti Diskurse instaliacija, jūs naudojate senąja versija."
+        status: "Statusas"
+        update_action: "Atnaujinti"
+        repo:
+          name: "Vardas"
+          last_updated: "Paskutinį kartą atnaujinta"
+          status: "Statusas"

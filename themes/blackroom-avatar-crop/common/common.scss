@@ -1,0 +1,53 @@
+.blackroom-avatar-crop {
+  box-sizing: border-box;
+  width: min(26rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  overflow: auto;
+  padding: 1.25rem;
+  border: 1px solid var(--primary-low);
+  border-radius: var(--d-border-radius-large);
+  background: var(--secondary);
+  color: var(--primary);
+
+  &::backdrop {
+    background: rgb(var(--primary-rgb), 0.5);
+  }
+
+  &__preview {
+    display: block;
+    width: min(100%, 18rem);
+    height: auto;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-medium);
+    border-radius: 50%;
+    cursor: grab;
+    touch-action: none;
+
+    &:active {
+      cursor: grabbing;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--tertiary);
+      outline-offset: 3px;
+    }
+  }
+
+  label,
+  input {
+    display: block;
+    width: 100%;
+  }
+
+  input {
+    margin-block: 0.75rem;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+}

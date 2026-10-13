@@ -1,0 +1,2607 @@
+{
+  "collected_on": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "core_revision": "6318da11adede54e9e5b2bbbeef8a79c2157503c",
+  "plugin_revisions": {
+    "discourse-doc-categories": "ad921bb9e2767975bc725ce7ffa8b51d0bbe9938",
+    "docker_manager": "0d26ddaac1f5073d989f689c6b928cbb53d93c0d"
+  },
+  "verified_runtime_files": [
+    {
+      "path": "docs/INSTALL-email.md",
+      "sha256": "77eead7dc6598911c96bbf139bedc35b2f22c9961a9d6cbb99baae955b32a6f6"
+    },
+    {
+      "path": "plugins/blackroom-games/.streerc",
+      "sha256": "b00494f303b1845f1990f5bc10c5680cd10b88fe74a73e45f2703854475da19c"
+    },
+    {
+      "path": "plugins/blackroom-games/app/views/black_room_games/games/open.html.erb",
+      "sha256": "3c35de0081e939866842fd4affb3a4415dccf4a6311fe6ab44dfbc55b97a06b9"
+    },
+    {
+      "path": "plugins/blackroom-games/lib/blackroom_games.rb",
+      "sha256": "16f311d08d0504d0eeac84e50d1222ebce50c60d0b0e0785e4045d4cc2becbb3"
+    },
+    {
+      "path": "plugins/blackroom-games/plugin.rb",
+      "sha256": "2c1b605780158e205d3f61a69a4ba11fb4dc39f09fc848eede9468b1a39b0462"
+    },
+    {
+      "path": "plugins/blackroom-games/test/config_test.rb",
+      "sha256": "24417baaeea562d9015824f0784411e2358f132a50714963c7dccf27d812e0a9"
+    },
+    {
+      "path": "plugins/blackroom-games/test/profile_test.rb",
+      "sha256": "17056312d3f50dde80d90050c592f9f5c0f728738b08b2f079f1fbed0f475f55"
+    },
+    {
+      "path": "plugins/blackroom-games/test/transition_test.rb",
+      "sha256": "c061ab587047bf55bc2459359585728a626266a26642d0632adcba8f1004654d"
+    },
+    {
+      "path": "plugins/blackroom-mcp-games/check.rb",
+      "sha256": "11181987dde35f8e9e7f539873b5d1cdb247055bca0a2950d9713be2453da487"
+    },
+    {
+      "path": "plugins/blackroom-mcp-games/lib/games.rb",
+      "sha256": "d652dfe0186a99c156d72b69a39026e8932bb884554036a90ba169d72ccb99e2"
+    },
+    {
+      "path": "plugins/blackroom-mcp-games/plugin.rb",
+      "sha256": "10753cbcec3b46fc84fc03ee92447a3e2b71738f716b5f790a39ca2eff271a48"
+    },
+    {
+      "path": "plugins/blackroom-mcp-images/check.rb",
+      "sha256": "2d9d5a5303736f4e77e0e14f0969f8222aea74c6f4969454d327ba2644de4c06"
+    },
+    {
+      "path": "plugins/blackroom-mcp-images/lib/read_post_image.rb",
+      "sha256": "3530a4dd01c9b99d7138479b1c95b957265101634e2f2a740bd325ac67a1a6cb"
+    },
+    {
+      "path": "plugins/blackroom-mcp-images/plugin.rb",
+      "sha256": "5f5610eb3e51a681f6d9696743bab952fb91a9f67c57e2a493a100ef2f5b4e31"
+    },
+    {
+      "path": "plugins/discourse-blackroom-moderation/plugin.rb",
+      "sha256": "33bbee5a0472f1ea3a6962a7f86fa954ba8f6686e18b0b46046baa988a6c0cdb"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.discourse-compatibility",
+      "sha256": "79f43b765dad5bbb5c69cb86df8a2bcd2a3e94de1dae612bf8cc1a27d2591b82"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.github/workflows/d-compat-branch.yml",
+      "sha256": "e44ad567aa3ba1567e74557323456f1cdf80e2a7c7affae3f05d7fc1345d5627"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.github/workflows/discourse-plugin.yml",
+      "sha256": "28902cf4eff0b3a9d0ea2e56fc058e7f2f4f1c8e94b74509c6febf58e353b420"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.gitignore",
+      "sha256": "8956feac736db1680510f495b9ab4e153a43c17973166c4f02b9333cc2a01f16"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.npmrc",
+      "sha256": "47d3e545bf09364808913084da107ab267513f4813ba5fa0761b1e2e8ad0a2eb"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.prettierrc.cjs",
+      "sha256": "3a7371742b59a42a793f361002bf1af8cd67777bafd18437840daaf8a23cea2f"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.rubocop.yml",
+      "sha256": "ec10bb4a3ab7d38292bbf38de2cc9c6feef9de89f7472522ee730f43c1b7df04"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.streerc",
+      "sha256": "9315cdd7e2a9f556783cc13bb33c4bcabeac851d3a341c8868edb8383077d7f0"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/.template-lintrc.cjs",
+      "sha256": "68e5e3e81ee2fe1fea74c8116ac847918907e737259bc343c2113d3bcef55703"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/Gemfile",
+      "sha256": "10261078eb9153d74f949d75cccbe3af9509a42680b9d62d35c6be6f412944c3"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/Gemfile.lock",
+      "sha256": "9dbee8a2bed59a85ee37e0902ef3e798c713cb0a1e351b1c4650d840d20c7a73"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/LICENSE",
+      "sha256": "accc0bf08b19c6b89e1969ff56376e7c03420d967caf91ada1720d800300f723"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/README.md",
+      "sha256": "a895c8e68a598b558e45f86681660e64926227a03547a91cd803b2b327a2fdc2"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/about.json",
+      "sha256": "10e2ab94cc82cfeeefe6e4a1ab96bb3a1405bbcce24b5646a4f667fc11b4ca04"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/app/controllers/doc_categories/docs_legacy_controller.rb",
+      "sha256": "60912dcbc5d0e0111925feffd99eea2da3780d78e895facacf9c94b4f617234b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/app/jobs/regular/doc_categories_refresh_index.rb",
+      "sha256": "d66e472c4a4e9a62ee952012ff47680d7bf22addccbd1a1447b1d06f670cb8d2"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/app/models/doc_categories/index.rb",
+      "sha256": "2c009557de9037eab1a4e57dc5eca3427f23238f06a82a98f09f5c12d078ee74"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/app/models/doc_categories/sidebar_link.rb",
+      "sha256": "180f3cc4a0a31a8af4341b5fb52e5df3e8eeb1e032984e301485eb152a4b6435"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/app/models/doc_categories/sidebar_section.rb",
+      "sha256": "5d3f8886d67c2959b6760dfa10502357e3bedd5f7faecde3b0ca21f9b5480122"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/app/services/doc_categories/category_index_manager.rb",
+      "sha256": "92b3c8472750c218a69e3be10c274898b3a59cfa1aa529303dacf7bd81a852b2"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/app/services/doc_categories/index_structure_refresher.rb",
+      "sha256": "f82979c1083cf63b9993c601b712fe614afc1f0b1456642a8a4f97bfed511311"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/components/doc-category-settings-form.gjs",
+      "sha256": "9d2b3e416db7b3a6e7d8543e49470cc26408c86986377d6b584fb187e8cf41ba"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/components/doc-category-settings.gjs",
+      "sha256": "b8dcb8e14c04e26484e118f1f1cebc78b97f9722166d825a23e1981a44e8027c"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/components/doc-simple-mode-toggle.gjs",
+      "sha256": "dcef8aa8ddf5e4b3141817ed836cee013860862dafadba47ab045fe1a3599b79"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/components/doc-updated-header-cell.gjs",
+      "sha256": "0e1e09c74966d888b09abedca4baf8ab53c120cf2c921742d83e68f4f6c15846"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/docs-legacy-compatibility-route-map.js",
+      "sha256": "df97b0edc99b6ac5e8a8658364b16a08bf89693c9c75b78f59573e547818d8eb"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/initializers/doc-categories.gjs",
+      "sha256": "5460d99084cd0e4c43cd18fb22ab6fd61bad54fb7d0e0f127f42befbf4de7bff"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/lib/doc-category-sidebar-panel.js",
+      "sha256": "9b426780041a920c42cf34f7854caa68cbd7d7ef83d5602d7b12a3aa0f18ff4a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/lib/simple-mode.js",
+      "sha256": "386ce6977eabf82a7bb73c92048ad631e849b2996e246f30f1ca1c12df4666b5"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/routes/doc-legacy-docs.js",
+      "sha256": "d1fd2f9c2528ec0a642f7a50dc231dd4c7a33886f80f6dda5349aaa3cece9076"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/routes/doc-legacy-kb-xplr.js",
+      "sha256": "08ed792446370d3210973e87ace565d3654715ed2a86ba789973abbdc44095c4"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/javascripts/discourse/services/doc-category-sidebar.js",
+      "sha256": "75c00972e801e2839ee9fa1b0adf15133a677b8d48774f282db940562465cf38"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/stylesheets/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/assets/stylesheets/common.scss",
+      "sha256": "e642d45c025ffb92b18e188f6184c694f550f1aeaae50f91cd208585bdb232b4"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.ar.yml",
+      "sha256": "bcea7efa17cbdfa02d3960d8a1361ca51ce5b0b689d6685a228e5da3443ad7d6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.be.yml",
+      "sha256": "6a55966dae5a8e49ac7361e73324dcd4ab4d1f0793bac41b040f40eb010ff01d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.bg.yml",
+      "sha256": "4c1fa033d50ce93777316418996798320e6f055f9a98fc8950f2e196a61a8204"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.bs_BA.yml",
+      "sha256": "cad07d0e4331c4b589e0f8854118fdfb1920a5283c36c63606b04c0e0e91501b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.ca.yml",
+      "sha256": "c5d3311e4deec9468a5583766c70b08998bcb2d47333b5cbf235aae47d76c29d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.cs.yml",
+      "sha256": "415adb742ec59e0edda9673fc4b3bef383941c853246265fbdc0c9c12b984c10"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.da.yml",
+      "sha256": "f685ad3d2194c90f1c83d3cb4124afac2ababb277ef0518786e4063d480f4b69"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.de.yml",
+      "sha256": "c458c1fee50d42a36765bb24089bf736521c925c78303aaedb74389017b3600d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.el.yml",
+      "sha256": "1f6fe80cab84c94df3b535dab16b319fa2b4941effe6ffb26530b511bc062d0d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.en.yml",
+      "sha256": "e82d49f0d14cdf35ec2929a7c108a13dd186e95e3c3bf7b582d5a1764e53a6f3"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.en_GB.yml",
+      "sha256": "7f814bda72259da419e5b03955ea2aa631c13ac4efd20d33f95900dd12ec042b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.es.yml",
+      "sha256": "d14c3fbd18e6e369ad9ec670ac05cf13de85612701ab1d8dfc587c14e4673732"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.et.yml",
+      "sha256": "dfaefcfbac600b0f2ade8697bb68ac1dfa8dcaf334904e73b2bbeeb960661562"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.fa_IR.yml",
+      "sha256": "3797c2df96f5cbe8bd4e0cc6e4102affd8b1949feb7b2eafd650242fa9dc1d97"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.fi.yml",
+      "sha256": "4db9a5d8d6282c5c202d96ccf5883b9f667828f95d10a4c6774e0a8de18d0165"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.fr.yml",
+      "sha256": "58606a016ab2fe654466b4926edb1a081a508ca51307f647b568f3a4eb51e946"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.gl.yml",
+      "sha256": "e3b23149ddfd8b1d30ce84ac6c2959b3ff1984165b85027db1e7d498ced6b0bb"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.he.yml",
+      "sha256": "c6fe1c4c75c5fea5eb4ee11d1f17bd0a7267e85027e31a4cfd59f2f9d759a6a2"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.hr.yml",
+      "sha256": "ffb1fd23be31d4e4c0a2e1aad4812fe997b3ba853a159671474c65e5f8e79fa6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.hu.yml",
+      "sha256": "f91d442cb1167f45c751558158345d9f329c0bf2e2c5ef097ddfcc3cff4495b4"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.hy.yml",
+      "sha256": "5f315ee6f278128d2c4d95cd7dd0233796bd2490196bf2ce2b99b31bf157f90f"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.id.yml",
+      "sha256": "6d54604efd0b30be1817e40100dc5b50391aeb405340408e274f967e380eaec9"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.it.yml",
+      "sha256": "5b264e574bdfe31ba4fa97e002bab266cf97988aaf5d888e34b105325018e8ad"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.ja.yml",
+      "sha256": "0d7c12fa6e9e3792e5d680789e66ccbee5cb8bcb028403fe3c6083ca8ec41a46"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.ko.yml",
+      "sha256": "7728d0cff148d1bc59302b802e0e45a43dc7a7d12ad7b9d3a175e6b5b2e38c37"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.lt.yml",
+      "sha256": "d0a36a4f882c55fe706b3b74729eb65fc20ee7652c43d37fbb6b784aea7c55b9"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.lv.yml",
+      "sha256": "4d27f0646ed17355ac2975646d24dec8fdd1ad46caa3b752927047de5eeb0e40"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.nb_NO.yml",
+      "sha256": "abae78242bb592e86fe113384d4d73e4f1b679553d70d4d88938883bdaa1503b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.nl.yml",
+      "sha256": "fd5dcf4dc1afdc5fca597423051243218901617c53996a591e85e5b9f17a095b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.pl_PL.yml",
+      "sha256": "8f519b9950b1ffb8947015ed7bfd87db311d70a868efa0ae3e32d6660f582069"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.pt.yml",
+      "sha256": "3db34d21349cb1eb196c1f1eff9f7ce6c54bc418257892b32c73aa81a0d01400"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.pt_BR.yml",
+      "sha256": "3e16a93d45c6dfd871f227defbdd47cb98b5ad287554ce07d4f68956e47b3be8"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.ro.yml",
+      "sha256": "85df7b175151405e335e2ec57f148cd7a718d40bb3cd0e430b0564d3f8f5d8ef"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.ru.yml",
+      "sha256": "718dec2ec0f1efced3e5c0273af479751330ee8e24df14d0d6cf4bda6c45471d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.sk.yml",
+      "sha256": "0188cdb885be819ca5362045c58a541593f46e27b142996eed055a2ea571d671"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.sl.yml",
+      "sha256": "733bf5a3bea839974600da42c0b1db29fdd7afcf9034d2dcf731f7f80b77d7d6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.sq.yml",
+      "sha256": "8077400cd3f944fcbe7d3f99783c1b07cb4115ccbf28280e008e67f75871dadc"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.sr.yml",
+      "sha256": "ddfbe0aacacfc5764a31a58543bd97d6ecf58cdd33b17f0cda6c3927d3767ae5"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.sv.yml",
+      "sha256": "42486adfe6d0d873571200ce805006b9f15a274ba45de646e99a1e0926cc158a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.sw.yml",
+      "sha256": "d389bd055abea92f9ffc968a9be393309187876c05b10174f928f95fec87236f"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.te.yml",
+      "sha256": "0ed848b019d65a00afbf11cb46513dd12b3b7d05a87fd50db127cc9c4fee6a7b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.th.yml",
+      "sha256": "14a58e131f1b50169edcfd57e27d9e3deabdc905a2f593c13b1a404475d7264d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.tr_TR.yml",
+      "sha256": "d9292e60198fab3e589814ed8110ecffa4241f455c4af13d37ddcc2a61d6d1c7"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.ug.yml",
+      "sha256": "f9a8f48d829b466b06df1e4cd67f9d577f7e84635ca48ff1e3b481a431ad67aa"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.uk.yml",
+      "sha256": "2654045e67bcdabb7bf19f4050c8c0052673fccdc1497fcfda5b82fb8caf9b71"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.ur.yml",
+      "sha256": "73c6e2d2c7f71cd69c810919db699b2a6c8929196cea8c7e05d2106e9c61124a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.vi.yml",
+      "sha256": "fb45de7e15f6f655d196340317f794cada4ced166189ec26e60cd956e04c7ea3"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.zh_CN.yml",
+      "sha256": "eec4b249a2a105609c815b8bed80d93b662c8c928427a9f201211e56d64f675d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/client.zh_TW.yml",
+      "sha256": "4ed2950efecbf8dbe9e58ef6664b3154b385255105b1280364965f4bdab54b6d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.ar.yml",
+      "sha256": "048fb02517e95b0c3c33c6db1b00d58e8ec35e15f07b6957a63195138547b506"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.be.yml",
+      "sha256": "6a55966dae5a8e49ac7361e73324dcd4ab4d1f0793bac41b040f40eb010ff01d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.bg.yml",
+      "sha256": "4c1fa033d50ce93777316418996798320e6f055f9a98fc8950f2e196a61a8204"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.bs_BA.yml",
+      "sha256": "88e4a67ebe3e8138db0d69504d66432a2958aea2dc3a443e481225ad2465a06b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.ca.yml",
+      "sha256": "34a00b4e91e08819dbd54db2a3619b0284384c8e6646abec01b1ae646ee906a6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.cs.yml",
+      "sha256": "c1c5f85513c7eeff4adc4a94aae74aba2cee5543ed2d9ad3821684fe0926cb2f"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.da.yml",
+      "sha256": "f4621f2550dfe12e61affd6adaf7e143c80555802c5144400d4ca895faa610f6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.de.yml",
+      "sha256": "a68c41ea7a30ea01e99e33f710e96df58b3b52afd386b7bcb8912d4920763b61"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.el.yml",
+      "sha256": "8756bd11cbf704d387ed0106f6b86922d2c6b7bfb89bfdbfb715c3e9a38b5496"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.en.yml",
+      "sha256": "c2ffe359bd25392e7e7b65533d959e464defd83694c9cf7a4381ad0c454d73de"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.en_GB.yml",
+      "sha256": "7f814bda72259da419e5b03955ea2aa631c13ac4efd20d33f95900dd12ec042b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.es.yml",
+      "sha256": "5b7dd751c8ddd5c07046109b2d0d4edb7fc236d1547d2767ae4e7150ad39a1ef"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.et.yml",
+      "sha256": "dfaefcfbac600b0f2ade8697bb68ac1dfa8dcaf334904e73b2bbeeb960661562"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.fa_IR.yml",
+      "sha256": "5a81e591fcfa53e66e4b439733c45dca6fca7f1c336253f298c3ef101a030e2a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.fi.yml",
+      "sha256": "952cc2fda751111a0f47c040a8fbe0787ab7afdc42d80bb20f750666f06bc105"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.fr.yml",
+      "sha256": "38713e2f5cfd1d6d4b4995395801b56be52116eb42db8ffadcbf638ef2a01f2e"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.gl.yml",
+      "sha256": "f2db4d3c2f0d7d135740fbc4b76231fd42a6c9bf4cb187967a346001ea0bd618"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.he.yml",
+      "sha256": "6919d459e9065cb21a3fe8e34f7d408ae79ad8d3abfff8b5cb7b7f192394251a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.hr.yml",
+      "sha256": "da96a49d62320d6c81a91d8f8960fab92f08bd6061aa470dbb6bf2f38a4c0e24"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.hu.yml",
+      "sha256": "a80119be476bace148fb553c3d8cdfc7c2bbc44cd21ed868d973aa2f034072ae"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.hy.yml",
+      "sha256": "d9d7875b0bff1420bb0c0f8f534d002859c4bdc1e1944e6ad6479e0052dd8816"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.id.yml",
+      "sha256": "6d54604efd0b30be1817e40100dc5b50391aeb405340408e274f967e380eaec9"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.it.yml",
+      "sha256": "4ced1b67a7913cc900f1c70ab48bc02717bb5dbc76a7a630ffab06cdada07e00"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.ja.yml",
+      "sha256": "60968fda8254ef5dd30c25564ccb9286e6ac0587be8ab4b3963a4cde09d696ad"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.ko.yml",
+      "sha256": "7d551fc2901613a475235b594859ad11e21716827247767a086fd31221ed9b2a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.lt.yml",
+      "sha256": "de2f1035ca9c501045a54c6e0342197c25010c54a901b77bd2696ad2abb6f733"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.lv.yml",
+      "sha256": "4d27f0646ed17355ac2975646d24dec8fdd1ad46caa3b752927047de5eeb0e40"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.nb_NO.yml",
+      "sha256": "675674a3cd6b4087debf7eba7bf4c2e5c8a4ac3ac41212ce27f53d1977f43aa3"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.nl.yml",
+      "sha256": "292f3582ef5eca81979436ea73ee49ee2c66b9dedaa416a3f6714e512e86e8e7"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.pl_PL.yml",
+      "sha256": "48b2d2fe7faa68afda7e9a2f5467fcdc3bcaea9c956b96c937373b09406e0dc9"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.pt.yml",
+      "sha256": "b9fcb664b87dd314692a1a6ea4ef20d57be6ae21380c1abff13a947fa79f0c9d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.pt_BR.yml",
+      "sha256": "513368d4bb3b98a519ee2ff88240bf6ec467f9867378127ed0379ffa6eb6af2a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.ro.yml",
+      "sha256": "f069ad9e95611509c0d4100039a0f79e130171457b2085d90a3e8b8d793aa98c"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.ru.yml",
+      "sha256": "8dd266e5f0db7eba6c7a80ca7c36c8d17a6f9206b0940f8dcf683347d908a28e"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.sk.yml",
+      "sha256": "1873362985dc79ffe1169eff9987d2b633f58de4785c843cc614934a2bfff9cc"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.sl.yml",
+      "sha256": "733bf5a3bea839974600da42c0b1db29fdd7afcf9034d2dcf731f7f80b77d7d6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.sq.yml",
+      "sha256": "8077400cd3f944fcbe7d3f99783c1b07cb4115ccbf28280e008e67f75871dadc"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.sr.yml",
+      "sha256": "ddfbe0aacacfc5764a31a58543bd97d6ecf58cdd33b17f0cda6c3927d3767ae5"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.sv.yml",
+      "sha256": "8ae48d4c3d4272e54ed13a0e247323daf04e311969f0f5ee3e11c925b0184ca1"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.sw.yml",
+      "sha256": "d389bd055abea92f9ffc968a9be393309187876c05b10174f928f95fec87236f"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.te.yml",
+      "sha256": "4020167f33af85886d965cc4d43fb69441cff26d170f4284f3564af3fc932a6c"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.th.yml",
+      "sha256": "14d8535c17c0c9021fcd369ce5e8ee961dc9a50abb57f92f312d9f21c1bf46cd"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.tr_TR.yml",
+      "sha256": "d15fec6eeaa686b122744e247ae36da9be933eb2041b20a7d5e468376d69b9bf"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.ug.yml",
+      "sha256": "84b067304cb9b43ef526a9b6e9e5b7516f2f5e31e945cf2a8d66aac0189342f1"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.uk.yml",
+      "sha256": "eadc264bd7c2f3e49d174a137880f0699b6575cba52fb812e756dd4c9fc5abc9"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.ur.yml",
+      "sha256": "2ad165acd5c4f71ce6a95a1079ff1045fb10bddc7a3b693e2906b23fc0907968"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.vi.yml",
+      "sha256": "32a7b556e03cddb41f6f9c1d4fc516fb19c13c8c332d5e1ab613f566fa1de065"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.zh_CN.yml",
+      "sha256": "5321508da0a0c864d5e81a6a691baa79fbad4425be87f202f33f7cb40a42ae60"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/locales/server.zh_TW.yml",
+      "sha256": "f1c5bb6f33675064072253fbbf7777ab6e485e537623c025a09822cf90a51a23"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/routes.rb",
+      "sha256": "83923ba8f05a1c73d3da12e69a2ca525191122c328d5245fdaa1dcb781a5268a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/config/settings.yml",
+      "sha256": "061509ed11535e63dc174f638e15dfe3f1a14ec0c61163e7e526eed2f304831a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/db/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/db/migrate/20250918020855_create_doc_categories_tables.rb",
+      "sha256": "486d11d4cd4759048a3c88132629789afdb8a991e92e5e37cc0b323a9aa005b7"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/db/migrate/20250918021916_backfill_doc_categories_indexes.rb",
+      "sha256": "3ef7fa934ee92a358f55d82da411689f57a368584000111160ff8976410cf3ec"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/eslint.config.mjs",
+      "sha256": "7966aab1cbd835706e2bfc82910d18d188150cc7c4566353c15af8e53cab9a7d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/doc_index_topic_parser.rb",
+      "sha256": "4863f01581d10b6a37ae0fd07a66c5ccd1b5d23650f79eee7c098284b9167b5e"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/docs_legacy_constraint.rb",
+      "sha256": "0a5afdc63a8bbc823547f79e6f5acd1a855b07adfcfadc3f9d4f2626d8e41f4d"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/engine.rb",
+      "sha256": "ba34aa4a62935dc1335786864e1fdc8a2764d46aebe28837fdd5606877d5408a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/add_advanced_search_trigger.rb",
+      "sha256": "7ba4cc8d81fa2857f09bb6d0cf7576260ce7f5175bb23096c414488c6a0cd6dd"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/add_category_extensions.rb",
+      "sha256": "76e9cde92466f03a1b0166182b521ab921ce1146342b923d104a5aa550f55325"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/add_reports.rb",
+      "sha256": "a87bd48a62b04e17584f8503715e232baf512a6c2435258e2c602df872b64dfd"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/category_extension.rb",
+      "sha256": "76a87d23a7742bc12f2598c8792d12a57d8dd576b738b3c518b9ff5aeae10fbf"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/handle_post_changes.rb",
+      "sha256": "a2fb737a6f6f6d5ed22e8f1833f30cc9f98238fe94d59c141ab153a596c31f76"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/handle_topic_bump.rb",
+      "sha256": "9f5ee869021e32a2c8195bb8ccc1db783526942aba26833b34cfcdbe8cadb8de"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/handle_topic_changes.rb",
+      "sha256": "8774f1b7dc68125274576a0050f9dfd0e67d3a49070923214c783dce56c768e8"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/invalidate_cache_on_enabled_setting_change.rb",
+      "sha256": "ee993eefcd1a439e72e2f34d89f50e958a1253c50a0a863058783adbe23a344a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/preload_doc_categories.rb",
+      "sha256": "8fe25a10afd90bd889337266ceb5a9a4aa3bdf08db37f1607fb814d4fc987a6b"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/initializers/serialize_index_structure.rb",
+      "sha256": "3b4810ee08f96b87873f106901ba2d84bb814350f1b5fce6d3dc179dc7d60fb6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/reports/extraneous_items_report.rb",
+      "sha256": "e0b2699068949b20a76359499ef79e484996d3e7744609b9bb2e8a76abdaf8f6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/reports/missing_topics_report.rb",
+      "sha256": "5937adf6fa5125f0233a6af49e29f3fd841d72cd7cc93c6ffa62e01ed5fcc7f7"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/doc_categories/url.rb",
+      "sha256": "f7b7a4b5fcc2b9782a56140d52b1a670635627d2442c12b634226b8626638b9a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/lib/tasks/doc_categories.rake",
+      "sha256": "d5887ee70390d0fbfe7fa21483b920f857120a5153b105f8fcefb60053e930b4"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/package.json",
+      "sha256": "860fd5e0cfcf5fcca9683e3a8e979401a6d4afe145d20b95fefd70327e102757"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/plugin.rb",
+      "sha256": "50019200d6a3185c7d3ae83d8c6a7e80de96b4a6543786f2dea564efb829a2a7"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/pnpm-lock.yaml",
+      "sha256": "73e722e63568f680a2b2ca21c08ed45b350348c0209acb9cf70158cdbafe2071"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/fabricators/doc_categories_index_fabricator.rb",
+      "sha256": "c0ccf0cd2017e9e8c5a0a0ded4179a695570311586366542776765e744acbd28"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/fabricators/doc_categories_sidebar_link_fabricator.rb",
+      "sha256": "5875eeee834babfa3f0e510601c60545d7a5795b870fce2917e9fd150a81c0cd"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/fabricators/doc_categories_sidebar_section_fabricator.rb",
+      "sha256": "eaab234d6747fb5acfb25657c77fcba34ed000259cbb2ae9560500a7e5b7c6ef"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/jobs/doc_categories_refresh_index_spec.rb",
+      "sha256": "726a39e7c378b4ecb6aa76076deaac3be35649e5e7b961e64a8dab3756075530"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/lib/doc_index_topic_parser_spec.rb",
+      "sha256": "1ea4fc7aef9a6e54f97f05e459ddb4f720466a68405c5f16651d20c8959fa637"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/lib/initializers/handle_post_changes_spec.rb",
+      "sha256": "ae8e95904adabcfaebd1a28cf32c951a16b95c33bd080b44dcfa89d1b39b49e5"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/lib/initializers/handle_topic_changes_spec.rb",
+      "sha256": "ebc0e449347ed703ec66784cfdb015e787fcf7105b4931827c091f7c839d1ed6"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/lib/post_revisor_spec.rb",
+      "sha256": "dbd00f448c1b951d2c45515612907925d7ee62fbe91efa9f36768d64b7352d43"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/lib/reports/extraneous_items_report_spec.rb",
+      "sha256": "f22ad97f4b9a8146cfd103193f243ff2035cff0907e8bda326c43c364d26dc16"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/lib/reports/missing_topics_report_spec.rb",
+      "sha256": "a1706b4193e3b6e31d001f3ea11809b03486e33fbf37a4e29fe5b02d0d79ad6a"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/lib/search_spec.rb",
+      "sha256": "3d29d68e5b89e2531b69a2c1b2836f5ee2b057048e81c9abc2a81d01f2f9c1d3"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/models/doc_categories/index_spec.rb",
+      "sha256": "6f8d6d41bf3a1a4e0c08d93a75d22147b07790dddd0b9a514c0a1ff7b051defd"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/models/doc_categories/sidebar_link_spec.rb",
+      "sha256": "b149327f546654b5a88cd42502ba3f1daf1b71fcc1c83e0537d7fbb067d8ca8e"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/models/doc_categories/sidebar_section_spec.rb",
+      "sha256": "814eaf29bcfa8488ea8f3e805ec7bce729f94f05116557fa9d00bec7520226ac"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/models/site_spec.rb",
+      "sha256": "b9a0461ec55972760ca0974e682b213196ca667789a9e93d059128865c9740d9"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/requests/docs_legacy_controller_spec.rb",
+      "sha256": "da924bd847aee89008e48fb15a1a2efe1d7b025f471ba98ba41c5509531f45d0"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/serializers/basic_category_serializer_spec.rb",
+      "sha256": "2d2190441c37ea00ee489e757b71d32d26a96b591e55b52c0d2f4c0cfecb27a0"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/serializers/site_serializer_spec.rb",
+      "sha256": "59165a05ba76a61f2fb254dcdd2c669322e761f9b34104232a226dc3a229eda4"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/services/doc_categories/category_index_manager_spec.rb",
+      "sha256": "93a3ce3c74a8751e576d4dd310dc0ff987a76de3f773fa0d657b19110195eaca"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/services/doc_categories/index_structure_refresher_spec.rb",
+      "sha256": "214603f84517eea3aa14b26e2698394f89e01a5e0be3f0930872c8966e0e31d3"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/system/core_features_spec.rb",
+      "sha256": "03180ff061cc7803f4f490e3366365d283ff9c2df3a7b79c2259e032f1adfdd3"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/system/doc_category_sidebar_spec.rb",
+      "sha256": "13f4b1038fad04c983e3c5cb02af3f344e663829fb0b74c7037fca6328b6d8c0"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/system/docs_legacy_compatibility_redirects_spec.rb",
+      "sha256": "a1ee20da9450df714d7cb011474f31e82c379369677211de74e23e1c49a6ba76"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/system/page_objects/components/doc_simple_mode_toggle.rb",
+      "sha256": "4306c1c4728352479327917c5a100e78910fd1052a15c5c3f4c7054ae4bbc9a2"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/spec/system/simple_mode_spec.rb",
+      "sha256": "5911c0aa8645fd4eb4607048b6ebd6bf10a5b8a25ddf9a6b429b0d506a62ae34"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/stylelint.config.mjs",
+      "sha256": "954484cd0f94318f2370e05aa7660a4dc3f7addc0868df9fb44190f5c33fdeaa"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/test/javascripts/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/test/javascripts/integration/components/doc-simple-mode-toggle-test.gjs",
+      "sha256": "05dee083fdeccce3d26d1cc7edf8c781fdf8c1dea8ad6578a146b58e1e218c6e"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/translator.yml",
+      "sha256": "27d0eeecceccbe032da0fea7d97e2308c9cb0e76e2e9462d6a5b27a8407fe654"
+    },
+    {
+      "path": "plugins/discourse-doc-categories/tsconfig.json",
+      "sha256": "7fb8cf4e67404add678d3095965bd85309fb48e1099e97d360cfd5b0b1384fdd"
+    },
+    {
+      "path": "plugins/discourse-resend/README.md",
+      "sha256": "94650a0cbdf3789208b78cd43505b6741d70e7fb84d6581b522ac654987339c5"
+    },
+    {
+      "path": "plugins/discourse-resend/lib/resend_delivery.rb",
+      "sha256": "a7a6721109c4fbed2652b7f652687100906148de22f1a688acb6bf86d06a654a"
+    },
+    {
+      "path": "plugins/discourse-resend/plugin.rb",
+      "sha256": "63107ad8e187a3ba1a96c95d0a58eb07ee54f58ec1cba1555f344e5c50892d6a"
+    },
+    {
+      "path": "plugins/discourse-resend/test_delivery.rb",
+      "sha256": "3fbeee0de11c23ddd0c8f2998acfbf00d2f945896a076d0ce118a95efd84dbe2"
+    },
+    {
+      "path": "plugins/docker_manager/.discourse-compatibility",
+      "sha256": "d03711b360362817e45421bea9e56b79cd110f498ac1c74f08831e1c6819819a"
+    },
+    {
+      "path": "plugins/docker_manager/.github/workflows/d-compat-branch.yml",
+      "sha256": "e44ad567aa3ba1567e74557323456f1cdf80e2a7c7affae3f05d7fc1345d5627"
+    },
+    {
+      "path": "plugins/docker_manager/.github/workflows/discourse-plugin.yml",
+      "sha256": "61b4c29dfe70bceb00bcd4f20e348a6b64cf4f187a4fdb0c174ee4c93063ea92"
+    },
+    {
+      "path": "plugins/docker_manager/.gitignore",
+      "sha256": "69d4f8ce0c62b57a24394f780ce155ca9739a9c9097083a561e66f9599927f21"
+    },
+    {
+      "path": "plugins/docker_manager/.npmrc",
+      "sha256": "47d3e545bf09364808913084da107ab267513f4813ba5fa0761b1e2e8ad0a2eb"
+    },
+    {
+      "path": "plugins/docker_manager/.prettierrc.cjs",
+      "sha256": "3a7371742b59a42a793f361002bf1af8cd67777bafd18437840daaf8a23cea2f"
+    },
+    {
+      "path": "plugins/docker_manager/.rubocop.yml",
+      "sha256": "ec10bb4a3ab7d38292bbf38de2cc9c6feef9de89f7472522ee730f43c1b7df04"
+    },
+    {
+      "path": "plugins/docker_manager/.streerc",
+      "sha256": "9315cdd7e2a9f556783cc13bb33c4bcabeac851d3a341c8868edb8383077d7f0"
+    },
+    {
+      "path": "plugins/docker_manager/.template-lintrc.cjs",
+      "sha256": "68e5e3e81ee2fe1fea74c8116ac847918907e737259bc343c2113d3bcef55703"
+    },
+    {
+      "path": "plugins/docker_manager/Gemfile",
+      "sha256": "10261078eb9153d74f949d75cccbe3af9509a42680b9d62d35c6be6f412944c3"
+    },
+    {
+      "path": "plugins/docker_manager/Gemfile.lock",
+      "sha256": "9dbee8a2bed59a85ee37e0902ef3e798c713cb0a1e351b1c4650d840d20c7a73"
+    },
+    {
+      "path": "plugins/docker_manager/LICENSE",
+      "sha256": "accc0bf08b19c6b89e1969ff56376e7c03420d967caf91ada1720d800300f723"
+    },
+    {
+      "path": "plugins/docker_manager/README.md",
+      "sha256": "ab3ef3c8ad111422a2aa39768fe8e939a700b8629e817a2f214f6341706a7e18"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/components/docker-manager/console.gjs",
+      "sha256": "cd137d17a187e85d7a8d18007e0560b83d597d846d4b80586aee351cde1534eb"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/components/docker-manager/progress-bar.gjs",
+      "sha256": "2dfa7cf4d41d72f1f19719ac7939c61981e73c732f601f036a20ee5a179de385"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/components/docker-manager/upgrade-notice.gjs",
+      "sha256": "b207c810f535ed4250ed7d50f10994729f569b271023578b15d3c77de62ec7d2"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/components/repo-status.gjs",
+      "sha256": "e24a1c87bb13c3507bb017aee534a4c0663d390aefdbeef2041e43ca9324ed47"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/connectors/admin-menu/upgrade-link.gjs",
+      "sha256": "38ef221f410323b0dc665aa7ed1f9df7d6fe88ca1b6a4a2a400e2763273b295e"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/connectors/admin-upgrade-header/upgrade-header.gjs",
+      "sha256": "189a329f5bf443c8ab3bd8790d67683e7957886617a1472f8a49647351f44e8b"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/controllers/update.js",
+      "sha256": "ecbff9531c8aec1122615538d253145cc83ae1941ca8e686da4f873d9dcdcb8d"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/controllers/update/index.js",
+      "sha256": "c9c6901ff850000110a3e6baaf7b354af600a5da28a20e2a009c479d948574cf"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/controllers/update/show.js",
+      "sha256": "dc6e190e67155f18ca2e80af06c50d64322e52bfd2c515d487b9eb52cfc9fdaf"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/docker-manager-route-map.js",
+      "sha256": "c654c4f903245dc20b6626bec27fe15b2e1bfc0b351a47ba9f309dd877f7b954"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/helpers/commit-url.js",
+      "sha256": "e7875f14d375cf164a4230f7047cbfcf4c29d1cb0691d0dfa17a76a1f157807c"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/helpers/new-commits.js",
+      "sha256": "1182b11de4fa8a6109ea7607eebc205c15ed6d927970bcf6ce6641a57de4f502"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/initializers/admin-sidebar.js",
+      "sha256": "7256aa3c16445be759004e2ee09f96ccb98673b305af6ab6e3425d7d9b23b2a3"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/models/process-list.js",
+      "sha256": "a177de7188856336173da784f32482029a37c0964f055e391349b902536047b3"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/models/repo.js",
+      "sha256": "63968a752e33b40d55e51bbde30bd9b26b3892b6bc1f8610fbdaf07f5e45c424"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/routes/update.js",
+      "sha256": "b395597f318ed523567811142c26a88919e438b885f215197c2065fb9d9935ef"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/routes/update/index.js",
+      "sha256": "6036863119a95d54a879f44a9ba45cf5be5d1f374343316e0768b24faf562bdd"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/routes/update/processes.js",
+      "sha256": "a56997ea96d50a6293f36f25b2329fc45ee70d581d3ad104e63724377a0a37cb"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/routes/update/show.js",
+      "sha256": "f16bdda72631adebe34c02e96672b86be45935052928cdc50a2a25bb404ec0a6"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/services/upgrade-store.js",
+      "sha256": "93782f7c69444cf4343f7c1a178d2ab57ef110c818c1bde60534181a19e65b99"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/templates/update.gjs",
+      "sha256": "3ed6a1668b6abbd126b95953ae2e7bfbde8b2f075d3c2a82377d3c13bf9dd428"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/templates/update/index.gjs",
+      "sha256": "8928137cf06d0170a8a6ea7b12dcbda94f2d2b6bd961db70bd96b9adfaee46ff"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/templates/update/processes.gjs",
+      "sha256": "1b005145dceb5029bc8dbfdaf1705580b84c55b1f2e7ea9b1f6e4e98986b1002"
+    },
+    {
+      "path": "plugins/docker_manager/admin/assets/javascripts/discourse/templates/update/show.gjs",
+      "sha256": "cfa1615d932af33c17d3efdb0a19fa43ce4f00486452335c11de9560428ceb25"
+    },
+    {
+      "path": "plugins/docker_manager/app/controllers/docker_manager/admin_controller.rb",
+      "sha256": "95e2d66a83eabf2aa348a3f1834114084380fdbd535272b4cdbdab1cbc035a87"
+    },
+    {
+      "path": "plugins/docker_manager/assets/stylesheets/common/docker-manager.scss",
+      "sha256": "4d31a27fd448df8cd4c18137241fe68fea0eebf12abfe4506a1abd632b7257af"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.ar.yml",
+      "sha256": "4810d5f0dc0861eed2d42ff7857c74ebc25892c4c781bb9c6a8ea5d531d3a096"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.be.yml",
+      "sha256": "8af9f80a908f4303829dae7613aeaafab516c230385ce102f7fc45d67f60828e"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.bg.yml",
+      "sha256": "cc111816ec239f069d276d760e9b98f3a444e12ac008604294800e6b352c7d03"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.bs_BA.yml",
+      "sha256": "73549a7ea62cfe6c013828423c240845e1654f1588fcd44451ddb8d9927409df"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.ca.yml",
+      "sha256": "c001ce7e65ed559da5fc532f831e671684f6534fa00c803ca3545902a97803ac"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.cs.yml",
+      "sha256": "f9bc038bf1bce96a7bd90b237c8c0736b627bf81a1931092abe726e0e81b7f0f"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.da.yml",
+      "sha256": "e355b517a6f1ec99a2facae5f9cdf0c72947d42d036a067938438922d636abcd"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.de.yml",
+      "sha256": "53b1d5e3be89100b67bb765fd534e6af6317cf70f252dc7660ab0b48c4874476"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.el.yml",
+      "sha256": "ad90866e2fb014f20b0f085fe629dbd57de4672181128d499c899680532d3d2d"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.en.yml",
+      "sha256": "0545dff3fb8116e1962eb16a991149ad84893721b019dcba12a42a60b61aec9b"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.en_GB.yml",
+      "sha256": "d02ffb07a4fbb12c3c5d3352ed6e31079634d389859f3e307cc80f4172437cc4"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.es.yml",
+      "sha256": "d7e2ba43b2e0d70dcdac4df9dda8affedca1293d66d9248dc2407cd511cb8fb7"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.et.yml",
+      "sha256": "1f18c8482f585a32cbf3d22ff3a1b633854806a0c322dc80eae5517d42ddb17d"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.fa_IR.yml",
+      "sha256": "a685710b4c691f1fddd4ef8fe448920da5fa9d15158ad619cbcb74a0ab142127"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.fi.yml",
+      "sha256": "70dee5cd56fa25c9184ecf3944333f8c54d2fb3b80a1a524b067d4f16d9b46c5"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.fr.yml",
+      "sha256": "5a61b2e0f5e601bbd075b65ab062e29ad87ed5a21d3a96539bd03448fbfcc2ba"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.gl.yml",
+      "sha256": "1c6dc98fff50840e7146cf8eb0a4ad444cc23e295e8133d5f1e19295f6494576"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.he.yml",
+      "sha256": "7fb4027f4891d38dc53d7493ed16801ebfb5d75e587f0e9f9abdb262671413b2"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.hr.yml",
+      "sha256": "2c0fa4577736e0fcf5a72dcac22ad927e657899f80d1f3449b6e062e619ea0c8"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.hu.yml",
+      "sha256": "0f4dec4f261a88f3874c8db45d3f1649ed3858da184c21c0499870015f780285"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.hy.yml",
+      "sha256": "3508bd425ae56ed7c8f4c78328904fc2d518a3cc20c69b5ba1b6d0b86da87ef6"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.id.yml",
+      "sha256": "392c07aa7c045602c8e7567493ac2caa5a7a7eb9af21f0df884d5ebc03df60f0"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.it.yml",
+      "sha256": "7d97ce800a7251d0c336e0d978db3f63a711b56f50ca9e88d8e26d9e3317e662"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.ja.yml",
+      "sha256": "d8d0edde61b590f8a33133fc65bcc120cc6a8417cf1a1a0e99abb1603e6660a9"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.ko.yml",
+      "sha256": "3464af79ea8b4919b58d9cd3c5ee1add5fa7b4ab1430e4480b6312de65d40568"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.lt.yml",
+      "sha256": "e96129c7c75b45921d7d8371b95fef3e92de1ba3a44307faf42bafcf9d068e27"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.lv.yml",
+      "sha256": "040d8da2b4f65e7b2a35d7037874f2d8e7d17acd325ab267cb740c0730390391"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.nb_NO.yml",
+      "sha256": "4bad7824b0cbe622d947d85c0c8f7828658c79072b1f345d7a1acf136d0a0fa7"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.nl.yml",
+      "sha256": "e04914adf6189847bca35a5052388e23016df86a81f56f11fd0f32a812c9342d"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.pl_PL.yml",
+      "sha256": "931bed10e9b9bc523a6e5c8788c134895ffcd153ffb4f1de43e7cd507f850820"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.pt.yml",
+      "sha256": "94a34ccd021ddc03c23b1af80ec033677dc8e8fc76cef3315544893609e136f9"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.pt_BR.yml",
+      "sha256": "0cd9c146a35347f764fa3afedf20cc2213ddf7fdb384a7dd347fc372bc5df73c"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.ro.yml",
+      "sha256": "e0039f446ac36c63f4ccda038e7bdda34756bf0a170ea10c4e5c6399ad8932ea"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.ru.yml",
+      "sha256": "e7b8d98a7318ec69741b6b25a31b71418f1100c3ec8aa7268817e0c2d88ef912"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.sk.yml",
+      "sha256": "6f6a8c5d97ac6c0e33370d2436170957bd13f1adbf6eb55760e3dfd833b3826a"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.sl.yml",
+      "sha256": "38c9bb55d52f68471af6aec4fef698560b04551bc4df92ee9699abc6a813e264"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.sq.yml",
+      "sha256": "3ea68aac0bfc23ce246313c4ed701eec8c5592752e861224d5af73fbb0f9f713"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.sr.yml",
+      "sha256": "e8a28992899f9fe384599ae2d9f5be6f11e97b80b0660195480d6141cecdf63c"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.sv.yml",
+      "sha256": "2a3a7dbae6ec172cce0926c62e0f0055295e1aff04cbaf8cf06110c9ff3c0b6c"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.sw.yml",
+      "sha256": "a1410413a6a8ae4481cfbbc30e0db929de98a08683748aa02081aac7a1e4d614"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.te.yml",
+      "sha256": "3db273b0e6ae5a57e6a6137970089e73cb613f57f3e03834f2ffaf544bf62381"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.th.yml",
+      "sha256": "70fdf9b6b2b9665ff9fe564371d022384527c235de57a78e88688ed21b664753"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.tr_TR.yml",
+      "sha256": "2e772ad235040e9ddd86462506fa740b992d770be23eb5f689a975337df9d238"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.ug.yml",
+      "sha256": "34ab08e47883976ddca27dc082a5d8e288e9fbbc4de98b492b85ef8a2d37489c"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.uk.yml",
+      "sha256": "c73e362009d731086f182a214e19a34c733b6365067370ab019c3df7c72ed309"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.ur.yml",
+      "sha256": "87401000b3ae4f87f529649837f893657825ca3af6c1ef26cdb0b5c8bc52d67b"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.vi.yml",
+      "sha256": "f77c6f6f4205920f88dddbfc5f30cef07cc0bee63264e1f94da93bf8726291b3"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.zh_CN.yml",
+      "sha256": "b6711dc1d1defd3ba890a01ac8711039f8c6263756c14d6deaf9574b37d785eb"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/client.zh_TW.yml",
+      "sha256": "440220a8e91d05528ac322a564546b9407ef7d48a81de6d2085491a5f57bb694"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.ar.yml",
+      "sha256": "9618a108c1b6e8c68089f278b31e04a4be8c177b4d9cb26b182e47196d3f0cb8"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.be.yml",
+      "sha256": "6a55966dae5a8e49ac7361e73324dcd4ab4d1f0793bac41b040f40eb010ff01d"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.bg.yml",
+      "sha256": "4c1fa033d50ce93777316418996798320e6f055f9a98fc8950f2e196a61a8204"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.bs_BA.yml",
+      "sha256": "88e4a67ebe3e8138db0d69504d66432a2958aea2dc3a443e481225ad2465a06b"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.ca.yml",
+      "sha256": "34a00b4e91e08819dbd54db2a3619b0284384c8e6646abec01b1ae646ee906a6"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.cs.yml",
+      "sha256": "5b4212cc3cc101c48c977bf101c7e15d02f919452164853d2f8cbeb3fe8dbb84"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.da.yml",
+      "sha256": "4946fe286be58aec053f63448b26082839b9116ee0d37117028f0f66ecaabaf2"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.de.yml",
+      "sha256": "debc114daf3e511ba89a9b4d651adb673b5d501f23e6aeafa13d83995b792d7a"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.el.yml",
+      "sha256": "746ddf4437ee63903f35e239ab193150d60666c9274d5cc061127ddaf2ec14a1"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.en.yml",
+      "sha256": "359e45f6031ef31cb5672745b9974e0778501960d7bd6b9cda870bef0c0e8e40"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.en_GB.yml",
+      "sha256": "7f814bda72259da419e5b03955ea2aa631c13ac4efd20d33f95900dd12ec042b"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.es.yml",
+      "sha256": "53c08c1bb4d45f92a8c38e70aac0f637ef984dc2c6eaf9c2be41e37855cd6c6f"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.et.yml",
+      "sha256": "dfaefcfbac600b0f2ade8697bb68ac1dfa8dcaf334904e73b2bbeeb960661562"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.fa_IR.yml",
+      "sha256": "66ce7d8c129a4bcdc8be2cd80360d3d81e2d187ef3ec4ed5e4fb3a938992a310"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.fi.yml",
+      "sha256": "e74fca2f998e26417fbcc80f79b98666cde3264b2be08912e352a9a7b3b43c83"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.fr.yml",
+      "sha256": "4d1a435fc14efd4996755874580cea32571fb78d7f14224411b9e3371f78de6a"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.gl.yml",
+      "sha256": "f2db4d3c2f0d7d135740fbc4b76231fd42a6c9bf4cb187967a346001ea0bd618"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.he.yml",
+      "sha256": "2bbd169a4fd731df8e82d877cda634e3bae5c384b8882a0d16029a38e9740af2"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.hr.yml",
+      "sha256": "da96a49d62320d6c81a91d8f8960fab92f08bd6061aa470dbb6bf2f38a4c0e24"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.hu.yml",
+      "sha256": "83e1cebcba9c8a12e5e89427dfdc8d4fec9b4110623b7c241f34d2660bb4c899"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.hy.yml",
+      "sha256": "d9d7875b0bff1420bb0c0f8f534d002859c4bdc1e1944e6ad6479e0052dd8816"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.id.yml",
+      "sha256": "6d54604efd0b30be1817e40100dc5b50391aeb405340408e274f967e380eaec9"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.it.yml",
+      "sha256": "815b80e77c43b8f7e1c206088d61d1538cbba0ff5affe3d7c0d34a4c96c11d7a"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.ja.yml",
+      "sha256": "a8a2aad4b4fc3c0c567d01034b1d521be48b4860be3510fe3a20bb51d3f48473"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.ko.yml",
+      "sha256": "7d551fc2901613a475235b594859ad11e21716827247767a086fd31221ed9b2a"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.lt.yml",
+      "sha256": "de2f1035ca9c501045a54c6e0342197c25010c54a901b77bd2696ad2abb6f733"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.lv.yml",
+      "sha256": "4d27f0646ed17355ac2975646d24dec8fdd1ad46caa3b752927047de5eeb0e40"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.nb_NO.yml",
+      "sha256": "675674a3cd6b4087debf7eba7bf4c2e5c8a4ac3ac41212ce27f53d1977f43aa3"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.nl.yml",
+      "sha256": "a4008fbb965d5a420dbaaf8a706507faa46529692b0c720a9759a83ee231a386"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.pl_PL.yml",
+      "sha256": "3213c313a7b905acb450d80983abc4c1e7ebceeb71bcee90bff4765ddf10736e"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.pt.yml",
+      "sha256": "970f3781feb829b89355b5cbae53d815808b60149f6c9fb134d1b0bfe4709f1f"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.pt_BR.yml",
+      "sha256": "25c1a9e5e7845cfbe91382ad8599f542c43206eb25f2199b319b9792a84800af"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.ro.yml",
+      "sha256": "f069ad9e95611509c0d4100039a0f79e130171457b2085d90a3e8b8d793aa98c"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.ru.yml",
+      "sha256": "4c7c9b08a58c7a677a9a097e5e7c17495ec553ee0e6711b39da4328c0d5972f7"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.sk.yml",
+      "sha256": "1873362985dc79ffe1169eff9987d2b633f58de4785c843cc614934a2bfff9cc"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.sl.yml",
+      "sha256": "733bf5a3bea839974600da42c0b1db29fdd7afcf9034d2dcf731f7f80b77d7d6"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.sq.yml",
+      "sha256": "8077400cd3f944fcbe7d3f99783c1b07cb4115ccbf28280e008e67f75871dadc"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.sr.yml",
+      "sha256": "ddfbe0aacacfc5764a31a58543bd97d6ecf58cdd33b17f0cda6c3927d3767ae5"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.sv.yml",
+      "sha256": "8ae48d4c3d4272e54ed13a0e247323daf04e311969f0f5ee3e11c925b0184ca1"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.sw.yml",
+      "sha256": "d389bd055abea92f9ffc968a9be393309187876c05b10174f928f95fec87236f"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.te.yml",
+      "sha256": "4020167f33af85886d965cc4d43fb69441cff26d170f4284f3564af3fc932a6c"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.th.yml",
+      "sha256": "14d8535c17c0c9021fcd369ce5e8ee961dc9a50abb57f92f312d9f21c1bf46cd"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.tr_TR.yml",
+      "sha256": "8925cf9b6c81c8b84fb9be25fe021748171de8fec4bb476a0ac3bccf9613a846"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.ug.yml",
+      "sha256": "84b067304cb9b43ef526a9b6e9e5b7516f2f5e31e945cf2a8d66aac0189342f1"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.uk.yml",
+      "sha256": "eadc264bd7c2f3e49d174a137880f0699b6575cba52fb812e756dd4c9fc5abc9"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.ur.yml",
+      "sha256": "5ff944c40b7e11b5c97318229a156682ee22811a8bc3225477c26185542273f0"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.vi.yml",
+      "sha256": "32a7b556e03cddb41f6f9c1d4fc516fb19c13c8c332d5e1ab613f566fa1de065"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.zh_CN.yml",
+      "sha256": "d7562cd9f45025c6d236ca99ddfb56ee65a7a6b5f01c6b0047fe05d0842b8d68"
+    },
+    {
+      "path": "plugins/docker_manager/config/locales/server.zh_TW.yml",
+      "sha256": "f1c5bb6f33675064072253fbbf7777ab6e485e537623c025a09822cf90a51a23"
+    },
+    {
+      "path": "plugins/docker_manager/config/routes.rb",
+      "sha256": "c8e21107e1939e478490246e82a07c068de258fc45ddc3561330048c2bc2eb10"
+    },
+    {
+      "path": "plugins/docker_manager/eslint.config.mjs",
+      "sha256": "7966aab1cbd835706e2bfc82910d18d188150cc7c4566353c15af8e53cab9a7d"
+    },
+    {
+      "path": "plugins/docker_manager/lib/docker_manager/fallback_compatibility_parser.rb",
+      "sha256": "bf42d2d3e92a709a937f2c7c91c3f37d3e1d2d011d3d6f50dc243a758bfe2da2"
+    },
+    {
+      "path": "plugins/docker_manager/lib/docker_manager/git_repo.rb",
+      "sha256": "671238fddde42894fe115196ccca1797412f8525ad888da94bcead27d0add6f9"
+    },
+    {
+      "path": "plugins/docker_manager/lib/docker_manager/pitchfork_adapter.rb",
+      "sha256": "fd22135d3d4c25c466307e2b5e5996cf319f53ddc640a30c333a9861e582d4e2"
+    },
+    {
+      "path": "plugins/docker_manager/lib/docker_manager/unicorn_adapter.rb",
+      "sha256": "5e194c46403fded0db2e929bffb7ff2ecd5ca17d86269fda89e6e9c77ce61f00"
+    },
+    {
+      "path": "plugins/docker_manager/lib/docker_manager/upgrader.rb",
+      "sha256": "b032747e794fd6cf20f876b6d83ccd1b55af07d8363f1dc2e195b6618d0e6a9f"
+    },
+    {
+      "path": "plugins/docker_manager/lib/docker_manager/web_server_adapter.rb",
+      "sha256": "56be828ee0433eabab0c03338539e6d8ff3e2b3134e37267850c9fb06a7e3f22"
+    },
+    {
+      "path": "plugins/docker_manager/lib/tasks/docker_manager.rake",
+      "sha256": "7ff0fd5ffc2bc88e79b171ecf1b8f5ab8096b76fd758b891b3ab2fc203105f05"
+    },
+    {
+      "path": "plugins/docker_manager/package.json",
+      "sha256": "93b15979f48712d591aab5fc9c6c4bc848bb8c3bbc366cc108e764eea630de8c"
+    },
+    {
+      "path": "plugins/docker_manager/plugin.rb",
+      "sha256": "065ba13e13def0a6a12fdbd089c8179c58c8d941305ec227aec17564f1e5e48b"
+    },
+    {
+      "path": "plugins/docker_manager/pnpm-lock.yaml",
+      "sha256": "05bf3b0d582f009af2be9a15ddc1de894feacaa58aea35a5568dd006e11853c1"
+    },
+    {
+      "path": "plugins/docker_manager/scripts/docker_manager_upgrade.rb",
+      "sha256": "2cfacddd273935bb72ab90311edc0477e22df604c933027c19ad26455240b327"
+    },
+    {
+      "path": "plugins/docker_manager/spec/lib/docker_manager/pitchfork_adapter_spec.rb",
+      "sha256": "7b66151630cf7ed2ddae4b5324c1bf6b12f9cfc0aab05dc6a047185a70dbd84b"
+    },
+    {
+      "path": "plugins/docker_manager/spec/lib/docker_manager/unicorn_adapter_spec.rb",
+      "sha256": "daab83c6fdb5e9a4cbbd7b37b9cf800b543d4c090bdea9ac9712f15715808879"
+    },
+    {
+      "path": "plugins/docker_manager/spec/lib/docker_manager/upgrader_spec.rb",
+      "sha256": "da3e825d56a8fbb52d104742a01c1c6186b56f78b5e684ae79bf4448e06deec4"
+    },
+    {
+      "path": "plugins/docker_manager/spec/lib/git_repo_spec.rb",
+      "sha256": "9782aaddb9c95a7549bf5633e4cf5305e9e9e6d00e947c0ae0187ef4dbbebb54"
+    },
+    {
+      "path": "plugins/docker_manager/spec/plugin_helper.rb",
+      "sha256": "5847a98954cfc9a94f89b013745c6b8d02ee5d17468bd6063649932869b804f6"
+    },
+    {
+      "path": "plugins/docker_manager/spec/requests/admin_controller_spec.rb",
+      "sha256": "503cc9fc78850720cf479b39a8b8eb1819bd5d0e1df521b4e3183d50073f1fc9"
+    },
+    {
+      "path": "plugins/docker_manager/spec/support/git_helpers.rb",
+      "sha256": "cb7dc3cb676a046657ac0bbaada46ced7fcb23b2f467932ee72cba62ba44b4d5"
+    },
+    {
+      "path": "plugins/docker_manager/spec/support/shared_examples/web_server_adapter.rb",
+      "sha256": "da1f1003207a8538677ab15a687e0f3438163dad5aa6852b6165c9569fbb6c60"
+    },
+    {
+      "path": "plugins/docker_manager/spec/system/admin_update_spec.rb",
+      "sha256": "effcb5df4470831e7cd116c257311e7736ad9ecdcc7580b4f2ae8cb13eda6e4f"
+    },
+    {
+      "path": "plugins/docker_manager/spec/system/core_features_spec.rb",
+      "sha256": "03180ff061cc7803f4f490e3366365d283ff9c2df3a7b79c2259e032f1adfdd3"
+    },
+    {
+      "path": "plugins/docker_manager/stylelint.config.mjs",
+      "sha256": "954484cd0f94318f2370e05aa7660a4dc3f7addc0868df9fb44190f5c33fdeaa"
+    },
+    {
+      "path": "plugins/docker_manager/test/javascripts/acceptance/docker-manager-test.js",
+      "sha256": "8f89b3772e1d91a49cc09edb563b4b151bf275b50f012cd71c8654a1c5bb83b1"
+    },
+    {
+      "path": "plugins/docker_manager/test/javascripts/integration/components/repo-status-test.gjs",
+      "sha256": "3adb84727f459d8c770e582faa989bc7c17ef4e60579f240f9e7d15137ed7283"
+    },
+    {
+      "path": "plugins/docker_manager/translator.yml",
+      "sha256": "c879a666cba0952774235d230bf7541ceae52dfb803a693eeb4ac5b5dd485dd6"
+    },
+    {
+      "path": "plugins/docker_manager/tsconfig.json",
+      "sha256": "08078c5eb0245ec3df553ea4d6fbfe0ab5f95a732e4d3f30000464fe5c2da88f"
+    },
+    {
+      "path": "script/acg_daily_bot.rb",
+      "sha256": "657f158f849d5cc061cad9958c4c4986c3c34caf5f95a9aaca6146088193f8d3"
+    },
+    {
+      "path": "script/blackroom_bot_tags.rb",
+      "sha256": "d42ba1508392f9b26a27fa4ae102a8e551d8297fd25e28184cee9e1b4ae798ee"
+    },
+    {
+      "path": "script/blackroom_updates_bot.rb",
+      "sha256": "68a368a45cc7c247cea6fac79df6c940ff87765449eaac0d0280a4add47f7d72"
+    },
+    {
+      "path": "script/check_acg_daily_bot.rb",
+      "sha256": "cee9598639cc9bf521911ecbb53fdd05c15572eae28cacd7794bf6a01016f921"
+    },
+    {
+      "path": "script/check_blackroom_bot_tags.rb",
+      "sha256": "5cca46104528db8bba1ee9c5c4c49fae46ab0ad6fa3d4e4fa2f95ec35ec7a628"
+    },
+    {
+      "path": "script/check_blackroom_updates_bot.rb",
+      "sha256": "1da40209259c332f7ec57262284f6d5bfe22264eb926e265fc3adeeb4194b6d4"
+    },
+    {
+      "path": "script/check_club_isolation.rb",
+      "sha256": "e6b131f7559494e8545d6b9ec4e4c5b674b1b134e568a672399b17659b4aea43"
+    },
+    {
+      "path": "script/check_knowledge_base.rb",
+      "sha256": "b0d43d56c13ce494f62a1a2ab3a403644e1d9aef8da67c25c25d35711fa8cb8a"
+    },
+    {
+      "path": "script/check_meme_weekly_bot.rb",
+      "sha256": "8b704e6eb6e8199a16f709b3664ca94d74e284ec29dec8f6827bf1af6e98fdaa"
+    },
+    {
+      "path": "script/check_podcasts.rb",
+      "sha256": "698b037f34a162287a1af0a58ec4749d7502d2fa5326bad6c4d1940ed56ffad6"
+    },
+    {
+      "path": "script/enable_knowledge_base_writing.rb",
+      "sha256": "0261389e3ccb24852921c577760d9be11635c1f4ad785111433a4ad936773712"
+    },
+    {
+      "path": "script/install-freeboardgames-theme.rb",
+      "sha256": "92442886d3f5e534fb9aaab1fcc578effda0db17f29abd5701c818f0926b2423"
+    },
+    {
+      "path": "script/meme_weekly_bot.rb",
+      "sha256": "12043eb433660898b205cf390603d26f61f18554dd08ac69e38b4e8166382b47"
+    },
+    {
+      "path": "script/register-freeboardgames.rb",
+      "sha256": "278b193ca812f8da9eccd0704505860d6d98cb2f469046f6c10699e17bf4de30"
+    },
+    {
+      "path": "script/setup_acg_daily_bot.rb",
+      "sha256": "a3ce1472457164b89e7f1cb0490e7c82f07d3d2475bc373c3c985eb90fce4811"
+    },
+    {
+      "path": "script/setup_blackroom_updates_bot.rb",
+      "sha256": "a3ce1472457164b89e7f1cb0490e7c82f07d3d2475bc373c3c985eb90fce4811"
+    },
+    {
+      "path": "script/setup_knowledge_base.rb",
+      "sha256": "7e1dcf0513270891f7a93a0f77bd3f27386d36c73293edbbb700d979b5f44f5e"
+    },
+    {
+      "path": "script/setup_meme_weekly_bot.rb",
+      "sha256": "a3ce1472457164b89e7f1cb0490e7c82f07d3d2475bc373c3c985eb90fce4811"
+    },
+    {
+      "path": "script/setup_podcasts.rb",
+      "sha256": "761a85e989f0ed817beee5f22d4377c0bcb7e45b4f89087a0d0cf7ccdfae321f"
+    },
+    {
+      "path": "themes/blackroom-avatar-crop/about.json",
+      "sha256": "3201f442676987aa4b0eebd08e24d562d0a763f65a864fe45a936c18ebab7f55"
+    },
+    {
+      "path": "themes/blackroom-avatar-crop/common/common.scss",
+      "sha256": "fdb04eb175c51c8aa66706892264643b1f9a414c6079743e578e0e0c87973f33"
+    },
+    {
+      "path": "themes/blackroom-avatar-crop/javascripts/discourse/api-initializers/avatar-crop.js",
+      "sha256": "c268e2f66623fc8b77d9a36153da855ced7ebc60300f140330fae2ed9f99a78a"
+    },
+    {
+      "path": "themes/blackroom-avatar-crop/javascripts/discourse/lib/avatar-crop.js",
+      "sha256": "8d392dabb4a6aecbdf745bbaf02723ea62e385f625a10bdb6d77edeff13cb3b5"
+    },
+    {
+      "path": "themes/blackroom-avatar-crop/locales/en.yml",
+      "sha256": "3a082fc379c769b7137f764eb75404f259124ad07693671d155a69bf08ab4b64"
+    },
+    {
+      "path": "themes/blackroom-avatar-crop/locales/zh_CN.yml",
+      "sha256": "60719bcd157daa3be454b3c060f57801c21d7f1cfaf8980296b2bfcb72ca3c57"
+    },
+    {
+      "path": "themes/blackroom-games/about.json",
+      "sha256": "c3b324fd68549ea7d86ac896b2568111e726d94fda6715c649e34e83c7edddd5"
+    },
+    {
+      "path": "themes/blackroom-games/assets/bonk_cover.png",
+      "sha256": "2f083cfb22738c94f6a53d3654d63710df34f41838050dc75293678d88f5e20b"
+    },
+    {
+      "path": "themes/blackroom-games/assets/drawpile_cover.svg",
+      "sha256": "930c1df44562498ed3eb2da1cab0d01e8b5f74993512d914417bde605eb7cefa"
+    },
+    {
+      "path": "themes/blackroom-games/assets/freeboardgames_cover.svg",
+      "sha256": "d97e4a32c4b7c821b0a7f8e9cc10d96ffa3fcf151c10e087928dee5013549384"
+    },
+    {
+      "path": "themes/blackroom-games/assets/skribbl_cover.png",
+      "sha256": "a32113dabca16b34f24bfac88423f10a5beb86e3646e797d52e01b0508c7171b"
+    },
+    {
+      "path": "themes/blackroom-games/common/common.scss",
+      "sha256": "8473b28e30f8717683413b1624b446d9c50619e1d64a59287efdd9a834fb43c7"
+    },
+    {
+      "path": "themes/blackroom-games/javascripts/discourse/api-initializers/games.js",
+      "sha256": "e41d317678d085334897cf35f128007694afab11f43ad07fb0c92ab3b74aedf9"
+    },
+    {
+      "path": "themes/blackroom-games/javascripts/discourse/components/game-channel.gjs",
+      "sha256": "9e2ed2dd1bf88ac33afa34d8bd85a8a5ac3efff16c51195717226c055cfe280a"
+    },
+    {
+      "path": "themes/blackroom-games/javascripts/discourse/components/game-player.gjs",
+      "sha256": "a493c0552c840df8a5c6af2e61a809c4fa10c323822febf53a0c6861c0e8ffa9"
+    },
+    {
+      "path": "themes/blackroom-games/locales/en.yml",
+      "sha256": "bb1f435a3cc18d878a37c962808dbc89a8d070555c84e5e4524362e683a66728"
+    },
+    {
+      "path": "themes/blackroom-games/locales/zh_CN.yml",
+      "sha256": "1efa5d113bd71000b26a0a2be0e2343350d4be9c31af3ca711cf0117f4cec695"
+    },
+    {
+      "path": "themes/blackroom-image-annotator/about.json",
+      "sha256": "ec7950236de53aca3344e0476731e1fb3d157b35c1583417bd60d33024470289"
+    },
+    {
+      "path": "themes/blackroom-image-annotator/assets/markerjs2.js",
+      "sha256": "2a378c6e1dbab68b946e10e55c7a42f3cc486c3df6bd463dabe5c5f7bbc3e9ef"
+    },
+    {
+      "path": "themes/blackroom-image-annotator/common/common.scss",
+      "sha256": "6defc50cfa1d7d3a5f05ed3ce4ef82bc2f9475672b947de201a799148a56309d"
+    },
+    {
+      "path": "themes/blackroom-image-annotator/javascripts/discourse/api-initializers/image-annotator.js",
+      "sha256": "da784357f7efc535bc1d732553bf56084b1dcfa4ad4ade247fcb66c26485a4f3"
+    },
+    {
+      "path": "themes/blackroom-image-annotator/locales/en.yml",
+      "sha256": "13a56893df0c7c51bc1e447e256af22e989304edb28bd03c5a18051ad089e878"
+    },
+    {
+      "path": "themes/blackroom-image-annotator/locales/zh_CN.yml",
+      "sha256": "95709d0f02125f5c1691ec064fefe772bcdfbe380ad75e688c7edcaeba5b507f"
+    },
+    {
+      "path": "themes/blackroom-knowledge-base/about.json",
+      "sha256": "2a10d531601cf13e2979bd3f93b4aeddc27737ac0fe21bbf5624ecfca85c69c1"
+    },
+    {
+      "path": "themes/blackroom-knowledge-base/common/common.scss",
+      "sha256": "a09a5d43fc206b1509d7f7060df97f14312455f2bf20bd84e225b6fb37e3f37f"
+    },
+    {
+      "path": "themes/blackroom-podcasts/about.json",
+      "sha256": "7ff9ffdb56511967d7cf1c9e1f18be7c1ae7218b8f63061249566aca1e5c0e4b"
+    },
+    {
+      "path": "themes/blackroom-podcasts/common/common.scss",
+      "sha256": "be6b91e73d8821307bbdb7eb2a9af7f65af8e41878cbf9a2409adbcdaec52dc2"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/api-initializers/podcasts.js",
+      "sha256": "c7bc56c49f81269b804dd372877c9e1bb9ebf9dc5f6ffbd194adabe209cd443f"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/components/podcast-card.gjs",
+      "sha256": "278be0258107259a0d3cfbd70c046af5b985092a290460c2d78482a2bd8b164e"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/components/podcast-channel.gjs",
+      "sha256": "3e3ca9c3f6447def3e152c4ac4715d2c040aa9ce10f759317747bb73f704d7f3"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/components/podcast-cover.gjs",
+      "sha256": "23f53f60327c1ca3a0b848ae44336181efa33563fec50f93e23fbc5afcac2d49"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/components/podcast-discussion.gjs",
+      "sha256": "86c4598593435ff9fa23fd083150d5eb5b96c725b874371c094a2bc3dbedea17"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/components/podcast-player.gjs",
+      "sha256": "b18c3ccb5edf3138ff5f84ebd7201e404b1900ec08571c8c81150020f912548f"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/components/podcast-topic.gjs",
+      "sha256": "9e6e9cc125d84189a1ac39198c764485fab89d6baf79b6eedd4086c7e3401459"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/lib/podcast-metadata.js",
+      "sha256": "e7b8c83c003ac9f8a7eccbcec582b1af36fad79cbe06a65bf3f8e99be87ffdf3"
+    },
+    {
+      "path": "themes/blackroom-podcasts/javascripts/discourse/services/blackroom-podcast.js",
+      "sha256": "4967d17575a1b22324feff8cf69c9536ae9d404c76e98ae2b6ffc67321a90d87"
+    },
+    {
+      "path": "themes/blackroom-podcasts/locales/en.yml",
+      "sha256": "19c6dee9f4c2d16a7c75189f3ba6a3448eb7eb48c55808cf3311908dadc6289c"
+    },
+    {
+      "path": "themes/blackroom-podcasts/locales/zh_CN.yml",
+      "sha256": "90f70266ada8cf63905cae11589250c62a9417142c2394b372aefd903494939d"
+    },
+    {
+      "path": "themes/foundation/about.json",
+      "sha256": "c15163e2906dff85c02dc76948c4ef117814684d64b6415e250a4c43783880c8"
+    },
+    {
+      "path": "themes/foundation/locales/ar.yml",
+      "sha256": "4eb48564e0994a9ae804df886a05ab49bd37b96d514bf4814804f23c2ac0bf60"
+    },
+    {
+      "path": "themes/foundation/locales/be.yml",
+      "sha256": "6a55966dae5a8e49ac7361e73324dcd4ab4d1f0793bac41b040f40eb010ff01d"
+    },
+    {
+      "path": "themes/foundation/locales/bg.yml",
+      "sha256": "4c1fa033d50ce93777316418996798320e6f055f9a98fc8950f2e196a61a8204"
+    },
+    {
+      "path": "themes/foundation/locales/bs_BA.yml",
+      "sha256": "88e4a67ebe3e8138db0d69504d66432a2958aea2dc3a443e481225ad2465a06b"
+    },
+    {
+      "path": "themes/foundation/locales/ca.yml",
+      "sha256": "34a00b4e91e08819dbd54db2a3619b0284384c8e6646abec01b1ae646ee906a6"
+    },
+    {
+      "path": "themes/foundation/locales/cs.yml",
+      "sha256": "f2223729ca7d304a320d36c76815262d321b114a9967316c5ed6030b396babca"
+    },
+    {
+      "path": "themes/foundation/locales/da.yml",
+      "sha256": "f4621f2550dfe12e61affd6adaf7e143c80555802c5144400d4ca895faa610f6"
+    },
+    {
+      "path": "themes/foundation/locales/de.yml",
+      "sha256": "6858fe206049cfa50ff84a0fa6dae97c14fcca195443abc7c1ba1502a3364db1"
+    },
+    {
+      "path": "themes/foundation/locales/el.yml",
+      "sha256": "7d425634248ff260f7ec8a52634661308a5bb397d27f5d4bc9acaeb74741a36a"
+    },
+    {
+      "path": "themes/foundation/locales/en.yml",
+      "sha256": "3783429d10a9ed893e9439c4e2d010e79b3e4196cc2620f5bc83d463c15ecfc0"
+    },
+    {
+      "path": "themes/foundation/locales/en_GB.yml",
+      "sha256": "7f814bda72259da419e5b03955ea2aa631c13ac4efd20d33f95900dd12ec042b"
+    },
+    {
+      "path": "themes/foundation/locales/es.yml",
+      "sha256": "4f1c6e615e23721850764bf224c37c71297375ff736d66714d87df1636566981"
+    },
+    {
+      "path": "themes/foundation/locales/et.yml",
+      "sha256": "dfaefcfbac600b0f2ade8697bb68ac1dfa8dcaf334904e73b2bbeeb960661562"
+    },
+    {
+      "path": "themes/foundation/locales/fa_IR.yml",
+      "sha256": "5a81e591fcfa53e66e4b439733c45dca6fca7f1c336253f298c3ef101a030e2a"
+    },
+    {
+      "path": "themes/foundation/locales/fi.yml",
+      "sha256": "6d076d9979a7c5c1d5a35501012abe64daabd6ea63de615187146a7297c475a4"
+    },
+    {
+      "path": "themes/foundation/locales/fr.yml",
+      "sha256": "527f3e84d626de490404fae0670a6e7ca1bce46443c8da261b2063ee3ade0abc"
+    },
+    {
+      "path": "themes/foundation/locales/gl.yml",
+      "sha256": "f2db4d3c2f0d7d135740fbc4b76231fd42a6c9bf4cb187967a346001ea0bd618"
+    },
+    {
+      "path": "themes/foundation/locales/he.yml",
+      "sha256": "fc1d3a5749be941413ffd3e9288a844785ca4c885f54b0e83effe2b8da2df70c"
+    },
+    {
+      "path": "themes/foundation/locales/hr.yml",
+      "sha256": "da96a49d62320d6c81a91d8f8960fab92f08bd6061aa470dbb6bf2f38a4c0e24"
+    },
+    {
+      "path": "themes/foundation/locales/hu.yml",
+      "sha256": "f7274477e50c2a8ab022bc3854e4c9098c54a4159921aa69cb7728187e28e813"
+    },
+    {
+      "path": "themes/foundation/locales/hy.yml",
+      "sha256": "d9d7875b0bff1420bb0c0f8f534d002859c4bdc1e1944e6ad6479e0052dd8816"
+    },
+    {
+      "path": "themes/foundation/locales/id.yml",
+      "sha256": "6d54604efd0b30be1817e40100dc5b50391aeb405340408e274f967e380eaec9"
+    },
+    {
+      "path": "themes/foundation/locales/it.yml",
+      "sha256": "6787129ace93fc90733c7da951f51facb91bf691b71f4efea8fe8a2ecd38ca0b"
+    },
+    {
+      "path": "themes/foundation/locales/ja.yml",
+      "sha256": "1ee85abb2ce74353d29efefd8820df7892139f76f67614e04914e812b7ad6a76"
+    },
+    {
+      "path": "themes/foundation/locales/ko.yml",
+      "sha256": "7d551fc2901613a475235b594859ad11e21716827247767a086fd31221ed9b2a"
+    },
+    {
+      "path": "themes/foundation/locales/lt.yml",
+      "sha256": "de2f1035ca9c501045a54c6e0342197c25010c54a901b77bd2696ad2abb6f733"
+    },
+    {
+      "path": "themes/foundation/locales/lv.yml",
+      "sha256": "4d27f0646ed17355ac2975646d24dec8fdd1ad46caa3b752927047de5eeb0e40"
+    },
+    {
+      "path": "themes/foundation/locales/nb_NO.yml",
+      "sha256": "675674a3cd6b4087debf7eba7bf4c2e5c8a4ac3ac41212ce27f53d1977f43aa3"
+    },
+    {
+      "path": "themes/foundation/locales/nl.yml",
+      "sha256": "4ed7becc9ed0b7d85090c0c9d2e6a82aa9fb925484d93140024f2273aa48695d"
+    },
+    {
+      "path": "themes/foundation/locales/pl_PL.yml",
+      "sha256": "a91b67dcf9307f8e78aff99bdbbae5432e6c2f6bc8ad39231f9d3e4621c3a513"
+    },
+    {
+      "path": "themes/foundation/locales/pt.yml",
+      "sha256": "b9fcb664b87dd314692a1a6ea4ef20d57be6ae21380c1abff13a947fa79f0c9d"
+    },
+    {
+      "path": "themes/foundation/locales/pt_BR.yml",
+      "sha256": "3d85dd0ecbe516d6f6517929eb638e424ffe3dc3de6c5099d1522f71c8f65d2a"
+    },
+    {
+      "path": "themes/foundation/locales/ro.yml",
+      "sha256": "7433ec24d936e7771484050b4030e2ba63116f4502c07aead57b8def6287beff"
+    },
+    {
+      "path": "themes/foundation/locales/ru.yml",
+      "sha256": "be81be3634911838c27de8b813a76eb6d741176992bc95afe6d52fcc7af82494"
+    },
+    {
+      "path": "themes/foundation/locales/sk.yml",
+      "sha256": "a7008598eee81f59caf14f3d3edb64bc2fde73b9e373efab15a3131b49bc8a2c"
+    },
+    {
+      "path": "themes/foundation/locales/sl.yml",
+      "sha256": "733bf5a3bea839974600da42c0b1db29fdd7afcf9034d2dcf731f7f80b77d7d6"
+    },
+    {
+      "path": "themes/foundation/locales/sq.yml",
+      "sha256": "8077400cd3f944fcbe7d3f99783c1b07cb4115ccbf28280e008e67f75871dadc"
+    },
+    {
+      "path": "themes/foundation/locales/sr.yml",
+      "sha256": "ddfbe0aacacfc5764a31a58543bd97d6ecf58cdd33b17f0cda6c3927d3767ae5"
+    },
+    {
+      "path": "themes/foundation/locales/sv.yml",
+      "sha256": "8ae48d4c3d4272e54ed13a0e247323daf04e311969f0f5ee3e11c925b0184ca1"
+    },
+    {
+      "path": "themes/foundation/locales/sw.yml",
+      "sha256": "d389bd055abea92f9ffc968a9be393309187876c05b10174f928f95fec87236f"
+    },
+    {
+      "path": "themes/foundation/locales/te.yml",
+      "sha256": "4020167f33af85886d965cc4d43fb69441cff26d170f4284f3564af3fc932a6c"
+    },
+    {
+      "path": "themes/foundation/locales/th.yml",
+      "sha256": "14d8535c17c0c9021fcd369ce5e8ee961dc9a50abb57f92f312d9f21c1bf46cd"
+    },
+    {
+      "path": "themes/foundation/locales/tr_TR.yml",
+      "sha256": "63011662ef3c0e23d9e162c84b5b145b58ba6d86ed9a00bc851859ce9371f5e8"
+    },
+    {
+      "path": "themes/foundation/locales/ug.yml",
+      "sha256": "e6a1993d6f7b9fed3e8ec0822526e2ae9e679101c780794091e0128a1e0cae81"
+    },
+    {
+      "path": "themes/foundation/locales/uk.yml",
+      "sha256": "d5f305e1589b9ee946df554d57194da859fdb19b2a960edd027c5b0033a6e4c9"
+    },
+    {
+      "path": "themes/foundation/locales/ur.yml",
+      "sha256": "57b8f638b76347042e67048ff03618aeac334e54a7e396f4a4dadf38ebe54cd7"
+    },
+    {
+      "path": "themes/foundation/locales/vi.yml",
+      "sha256": "972935355c14c1d6b47b7ffa03e9ebd0b0593a609f540844d6365840e49651c7"
+    },
+    {
+      "path": "themes/foundation/locales/zh_CN.yml",
+      "sha256": "9643c598c183a5ef61d48446bb453f7fdc9af09b0ee5559a25063898a99bc9d3"
+    },
+    {
+      "path": "themes/foundation/locales/zh_TW.yml",
+      "sha256": "de8e5bea8c35911512d956e85854756b6dc4ecf085356a12e474f2717e5941f0"
+    },
+    {
+      "path": "themes/horizon/about.json",
+      "sha256": "e315e694c78777f420728d6ef25fa1329190fdb6eaee8e33a5d0a9e1e12f3287"
+    },
+    {
+      "path": "themes/horizon/common/color_definitions.scss",
+      "sha256": "f8eaaf4d5cb0bf8025fb106ce3d86fe7be92dadf67bfd4450d14aabae323d473"
+    },
+    {
+      "path": "themes/horizon/common/common.scss",
+      "sha256": "c490effd80b2199dcfabf7a6a4637cf17a79560f3ae5337446906a136fbdaaf0"
+    },
+    {
+      "path": "themes/horizon/desktop/desktop.scss",
+      "sha256": "c805e40e5fa2895fbf450c0b835892cdc536a4899fe46919b2a987707b4d8cda"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/api-initializers/ai-discovery-source-avatar.js",
+      "sha256": "eb0895df9b2d6f01f4f4673f79be85d34ff1762045461524587d6780f428c3d4"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/api-initializers/composer-peek-toggle-connector.js",
+      "sha256": "246f6dd9e0346611703ea2c19e8a9f5d46ddf344257ffe3765b7120b3cf35769"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/api-initializers/full-width-logo-behavior.js",
+      "sha256": "b667767d2d26135f949a37345879f564847df15021a3d9978c6c4bb39b6a04b2"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/api-initializers/hamburger-click-outside-transformer.js",
+      "sha256": "edd2e31e83f632616bee14effb43102ad2056799361edcadc34608c1ce842600"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/api-initializers/horizon.gjs",
+      "sha256": "3fa986dc59ed4cd9a1b172e21d893f861281f0f5ef270b44377065533fc0e6d6"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/api-initializers/reposition-bulk-select.js",
+      "sha256": "c01e4fbe9c324d1edeb67bccdec9bd4113e8e747203fd88a0bf5f99f32e60b1f"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/api-initializers/sidebar-new-topic-button-connector.js",
+      "sha256": "f8018c6a2ef8441600a419995f9044e082a4cb9708ff7cd7fb008f335e5fd8a9"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/card/high-context-topic-card.gjs",
+      "sha256": "23405a64199f48222bb8679e964f0d1d99112b3b48e7e1542d99ceb64dc64f6e"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/card/topic-activity-column.gjs",
+      "sha256": "2a65de76ea2b38e69d26ee6fd346e2e669293e36a7c1bdaf77278ac91f50246d"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/card/topic-category-column.gjs",
+      "sha256": "b695e7a495d7409a132e511ded8d1ac2686a4aa2959949b13036466319131c35"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/card/topic-creator-column.gjs",
+      "sha256": "8af58130f9af2f38a3f6be31c3579328875d29f6b08ec2d20ca9d99ebd3ed382"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/card/topic-likes-column.gjs",
+      "sha256": "8bb6b98079453a07580aa330f9939aa6e3556fe7261229eb5063412440f33bbc"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/card/topic-replies-column.gjs",
+      "sha256": "186d5255355411a420d5ad5bc4537d73659d88586b002c8ce541a3d4bf56cbe9"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/card/topic-status-column.gjs",
+      "sha256": "1170e6dbe877b45e02af52767cbe913e887b25719926e9f8c783202ae259d12f"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/composer-peek-mode-toggle.gjs",
+      "sha256": "0bd8e71b42147cbd02119e7fa020e7b6dcddcae09d60a7daea5c20d3271ada4d"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/experimental-screen.gjs",
+      "sha256": "037ef549cdf170d90f6ea53ba2e57e8fd881267519bc40ead816eb6cdc4bb623"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/sidebar-new-topic-button.gjs",
+      "sha256": "2068d7a8d5cc6c92b40ef581bc5ded9a59ad561cb912ff8a562508c46c7c000e"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/user-color-palette-menu-item.gjs",
+      "sha256": "cb8eb88a325d0ea2b3e4f3d0869d5ab938c3e34444767ab9cb9dd1fd510829f1"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/components/user-color-palette-selector.gjs",
+      "sha256": "8ead41b96d7d5e6c0a2c6d9959c80cc7088b5c3729abbcf8f10e01cccd26a880"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/initializers/topic-list-columns.gjs",
+      "sha256": "03ded80fcb723e417ab1ea2e276f67968014606468a3da599b18931ad5201238"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/lib/topic-activity.js",
+      "sha256": "98c91b68a7690e2dcd6226e93c1311bee899aa2c1d2e9cb146d3237b10169f04"
+    },
+    {
+      "path": "themes/horizon/javascripts/discourse/lib/topic-status-badge.js",
+      "sha256": "7b53553a12e51ff4642d5298dfc22fa861dc79e3aceb356097699f0acd5ddc26"
+    },
+    {
+      "path": "themes/horizon/locales/ar.yml",
+      "sha256": "8526140f07bf63a57e3dc2c08e8ca59a1c062ad12783a8e60cc83bdc2be5a16f"
+    },
+    {
+      "path": "themes/horizon/locales/be.yml",
+      "sha256": "6ddc9957aa4432ceedb9113c6a3c6600ecb89e4b68b46e965d0d6b0b282648b4"
+    },
+    {
+      "path": "themes/horizon/locales/bg.yml",
+      "sha256": "90d79b5702f582ec4147e8f53bdf91531e56f8b6816aafb93932a698d8feb70d"
+    },
+    {
+      "path": "themes/horizon/locales/bs_BA.yml",
+      "sha256": "5eda344472c840c7a90b4aff24ce0bdbb16c9d2a02e8e3ecc425d6a46b1f46c6"
+    },
+    {
+      "path": "themes/horizon/locales/ca.yml",
+      "sha256": "d45402b59667fe06206b3556cad6889fbed0b63d25f50d7e872bac33281b1c89"
+    },
+    {
+      "path": "themes/horizon/locales/cs.yml",
+      "sha256": "267ff532e9852089cee73d9aabce524357625cc4e1fc690351d73edf871bb81c"
+    },
+    {
+      "path": "themes/horizon/locales/da.yml",
+      "sha256": "4c323ae5318f62788600825991f650a1b7b6881d0fc6183c27a9548bd77474da"
+    },
+    {
+      "path": "themes/horizon/locales/de.yml",
+      "sha256": "cd075c7d24703200f136bb4ef3a52241e7be8f906151de1478edaf06febf5be1"
+    },
+    {
+      "path": "themes/horizon/locales/el.yml",
+      "sha256": "0e0094559a23cf39575fed71864360309b324c42d9827e13500af772f00494d1"
+    },
+    {
+      "path": "themes/horizon/locales/en.yml",
+      "sha256": "d953aa720a2e4f848bedae0ff9f24f27aaa6e1e470c9ae00f3c3b9afefa21334"
+    },
+    {
+      "path": "themes/horizon/locales/en_GB.yml",
+      "sha256": "7f814bda72259da419e5b03955ea2aa631c13ac4efd20d33f95900dd12ec042b"
+    },
+    {
+      "path": "themes/horizon/locales/es.yml",
+      "sha256": "d544759889b422e879770f5a1528b0e719572ca24b09fbbb883e245341ebb27f"
+    },
+    {
+      "path": "themes/horizon/locales/et.yml",
+      "sha256": "390556d1c8164ede2c2b6ff533dd89b1c426da04a39d4674c342ee5c637c502b"
+    },
+    {
+      "path": "themes/horizon/locales/fa_IR.yml",
+      "sha256": "9ea13132326d9a75ab6baa9d3cfd6873516e3f8bd764894d2330d0f0afa4163f"
+    },
+    {
+      "path": "themes/horizon/locales/fi.yml",
+      "sha256": "15f4348582dab6359fd8d18fbf581cc8d34b58f3f5786269dcb40ea2d5a714dd"
+    },
+    {
+      "path": "themes/horizon/locales/fr.yml",
+      "sha256": "3efcb024ca8a0ead3e251807b198b0db48a0ffb7dd9782404f918d1026ead946"
+    },
+    {
+      "path": "themes/horizon/locales/gl.yml",
+      "sha256": "a12ba0988851deaa1587d9343c428b92f9c742046daf79570e4b388fa7f2e4f7"
+    },
+    {
+      "path": "themes/horizon/locales/he.yml",
+      "sha256": "b88c10c3a0c72139643c8fc70effc83dcf586971dd41e595138632d33b2b8f39"
+    },
+    {
+      "path": "themes/horizon/locales/hr.yml",
+      "sha256": "f9b28f7e5f25aba8a0fdb6e3bc31214a7d86680482048baba8bb29c12ea213e3"
+    },
+    {
+      "path": "themes/horizon/locales/hu.yml",
+      "sha256": "afb8e3b858d999753357dfee041cb720bf4e130f160148592315bfbcdce53122"
+    },
+    {
+      "path": "themes/horizon/locales/hy.yml",
+      "sha256": "4d4604c1791df6eed867783ab9f29e414f4662273d1693b3f4f698add52b14c1"
+    },
+    {
+      "path": "themes/horizon/locales/id.yml",
+      "sha256": "36d157e89a6ce66b617ce3f405aa6c5595f41fc7825cc779774e307c279a5552"
+    },
+    {
+      "path": "themes/horizon/locales/it.yml",
+      "sha256": "9311625073e875172b79069a8aead5c3e47d92e348fc8a61bd224502296ff1ae"
+    },
+    {
+      "path": "themes/horizon/locales/ja.yml",
+      "sha256": "22c8fd2efbf6e752daa7cf1f93f65483d5265610bcc83bb6697d8049bbccf78f"
+    },
+    {
+      "path": "themes/horizon/locales/ko.yml",
+      "sha256": "33a063bec443fdbf01f475633837a86344e720daa3bc4a38901750ab44271858"
+    },
+    {
+      "path": "themes/horizon/locales/lt.yml",
+      "sha256": "b5f83e18a761f26990852e68869a9ecefb3c27679b766bd0e12a1b2028f1815b"
+    },
+    {
+      "path": "themes/horizon/locales/lv.yml",
+      "sha256": "2b8980e2231ce743b562671b7c673c0b2fbb994189385c90522f2fdca36af1bf"
+    },
+    {
+      "path": "themes/horizon/locales/nb_NO.yml",
+      "sha256": "47866acfb173b519943680338b1c15b522c8845cd6b9ba0edc4a9792b3b0dd70"
+    },
+    {
+      "path": "themes/horizon/locales/nl.yml",
+      "sha256": "d7b5aeca5e5b40e56bac09f803d857b36c534c0cc18a318cbeac57d7325e665b"
+    },
+    {
+      "path": "themes/horizon/locales/pl_PL.yml",
+      "sha256": "4b52410fda379426218878ffeade6424ec67413bb15b6e01175ae4dfe16b2036"
+    },
+    {
+      "path": "themes/horizon/locales/pt.yml",
+      "sha256": "4266b1d65d330fdf53fc6a92b63c28e5f77b7efddfe70b59aeec4b6576a84d8c"
+    },
+    {
+      "path": "themes/horizon/locales/pt_BR.yml",
+      "sha256": "d88eae88e2b5c44c7354eb6e12ce27b0771d912e73207044d32bf2cebb784116"
+    },
+    {
+      "path": "themes/horizon/locales/ro.yml",
+      "sha256": "8669269826dda2f56a26527084e5526345b605d64f8587e8b3f2cac3c54681bf"
+    },
+    {
+      "path": "themes/horizon/locales/ru.yml",
+      "sha256": "e4aceea04ae9479d46a569c591a32a93e306a9aed00898aa05cee24c844dcb03"
+    },
+    {
+      "path": "themes/horizon/locales/sk.yml",
+      "sha256": "9acf9aeff46c1f5829099f7d0c271a6f9d7d63bcba251f6098a8b2f8a37800ed"
+    },
+    {
+      "path": "themes/horizon/locales/sl.yml",
+      "sha256": "a02fc371f83a10b1541a59aa6c7640344556d1036c4ad6c1c08a2337ce59124b"
+    },
+    {
+      "path": "themes/horizon/locales/sq.yml",
+      "sha256": "6d376f010774d7b95f3e0805a930593f7cad91cc9249dbc2bc01899237132837"
+    },
+    {
+      "path": "themes/horizon/locales/sr.yml",
+      "sha256": "762de390521e4ea9b351084d96c59b76009f6a5b144a4b5a0d98d8e68fe32e03"
+    },
+    {
+      "path": "themes/horizon/locales/sv.yml",
+      "sha256": "8690215ae6eb86dbbfc82d7b6a05d67a721c026e09132c51c208b997cf9193dc"
+    },
+    {
+      "path": "themes/horizon/locales/sw.yml",
+      "sha256": "122f8ac608c84a6e15abd18304a1aaec603904c5513a67334983f3cbca007508"
+    },
+    {
+      "path": "themes/horizon/locales/te.yml",
+      "sha256": "379887612f092c5144afdc9e01caba9d623f2bd120cb1284ed435d5b6a665fcd"
+    },
+    {
+      "path": "themes/horizon/locales/th.yml",
+      "sha256": "9bd3fd92f3e4f7b11b4df1469f70891dccd92aa84e8f362f5dd3b190ca1af7b9"
+    },
+    {
+      "path": "themes/horizon/locales/tr_TR.yml",
+      "sha256": "000dd05c44f4700f63325e8453e20a223a72d2d29e94d3f34f3ec544eb081ec7"
+    },
+    {
+      "path": "themes/horizon/locales/ug.yml",
+      "sha256": "de193933c7d243efa86889a54f8195e7007fc2a83ae7698280afaedf9e23a560"
+    },
+    {
+      "path": "themes/horizon/locales/uk.yml",
+      "sha256": "6c85f4d1047764b9518d92f9eddaf14609955921555edcc210b28d644819feb3"
+    },
+    {
+      "path": "themes/horizon/locales/ur.yml",
+      "sha256": "11f4319533cd525cd54664e56e2c41386c6154f256a510f0053ad9dffaed7169"
+    },
+    {
+      "path": "themes/horizon/locales/vi.yml",
+      "sha256": "2c77ebd8b950efb5a6742f08f902b93168357544d58ed2e0df2a9aecbd5e8912"
+    },
+    {
+      "path": "themes/horizon/locales/zh_CN.yml",
+      "sha256": "4057a0014c7f727ee6ca0fd7d91efd958f1e448dbb00988ad5921bbe8bbc4fc1"
+    },
+    {
+      "path": "themes/horizon/locales/zh_TW.yml",
+      "sha256": "fbd7deea5f7bc0888a4cd8632aceb97dd2a8b67b1315b3b6f2ec68126da2a53a"
+    },
+    {
+      "path": "themes/horizon/migrations/settings/0001-convert-topic-card-context-to-boolean.js",
+      "sha256": "cb12ca073701017dfda27b49c304287beb9c5967ed80bb539117445fe5260e85"
+    },
+    {
+      "path": "themes/horizon/settings.yml",
+      "sha256": "4f8365313cac52cca10510a573834020a68ba9ec49865ef00f993a5f809df7a0"
+    },
+    {
+      "path": "themes/horizon/stylesheets/buttons.scss",
+      "sha256": "9f0026b61a1e5d83be700538e3a79bcdfdd29df068e19be1fb8822c0a5a20931"
+    },
+    {
+      "path": "themes/horizon/stylesheets/categories-view.scss",
+      "sha256": "e5cfc2fc6771019284d1677cd936d9cd5be7e3af62148d222d80c844081d7277"
+    },
+    {
+      "path": "themes/horizon/stylesheets/chat.scss",
+      "sha256": "fd8573fc6631b95cd9f5206141482f3fb10217ea3a61c5b76f7ad2abd47cda95"
+    },
+    {
+      "path": "themes/horizon/stylesheets/color-choice.scss",
+      "sha256": "a0de064dd0805404ac8c949f8d66f4da84dbdf40bf9e0c188b9bc2761b4c3898"
+    },
+    {
+      "path": "themes/horizon/stylesheets/compatibility.scss",
+      "sha256": "57c9ef38c4042c2456922ac7e5c62e112b1e9dc8d5ed129a3783ab6eb5ae02c5"
+    },
+    {
+      "path": "themes/horizon/stylesheets/composer-peek-mode.scss",
+      "sha256": "c96676512db455f8c6832c03f7440d0b860d1d68bbf271676005f003062a4b92"
+    },
+    {
+      "path": "themes/horizon/stylesheets/composer.scss",
+      "sha256": "603ce108e08475a184846af0f50a3ea28ac9eab0627ab8a5736c2f099d1f63ed"
+    },
+    {
+      "path": "themes/horizon/stylesheets/desktop-full-width.scss",
+      "sha256": "6bc6dc43c88eff6c5a273e9a2b25d1e06392f11cafee3e6073dc694f94bfcd99"
+    },
+    {
+      "path": "themes/horizon/stylesheets/desktop-horizon-fixes.scss",
+      "sha256": "d40e445c9c71e36cc96ffd959747f19db86dbd879b577f26f009002374d8d330"
+    },
+    {
+      "path": "themes/horizon/stylesheets/discourse-events.scss",
+      "sha256": "a50241764899d27bcae4553be8c50952527678fb68cd08d86935fdc982de1a79"
+    },
+    {
+      "path": "themes/horizon/stylesheets/experimental-screen.scss",
+      "sha256": "a67f83ba11cb6c2a0822b0e26f82bc1b8ffdd9fbfbf559fc0277a4cc1f7a08d9"
+    },
+    {
+      "path": "themes/horizon/stylesheets/header.scss",
+      "sha256": "3dd210726e885cbdbd5e67de4d84011214bfce40161ca764209e98b6f2367ef4"
+    },
+    {
+      "path": "themes/horizon/stylesheets/hiddenstuff.scss",
+      "sha256": "f97064b5d4fb7fe4076e56e99f34d1b8079832c4a0e7e3bee76d311d11c0bfd4"
+    },
+    {
+      "path": "themes/horizon/stylesheets/high-context-cards.scss",
+      "sha256": "a4d8b1dd45ad036748ede56a11ddfa0723c91a0ebdf9309f91b7d93034d5eb0c"
+    },
+    {
+      "path": "themes/horizon/stylesheets/login.scss",
+      "sha256": "23bf8c024aace354c4708dad44ff33f6a78a1fc2e7e705932f1d989404f648b6"
+    },
+    {
+      "path": "themes/horizon/stylesheets/main.scss",
+      "sha256": "193eefd6fccff32790069e2cf12376623c21fa1820228decb1da17c38ac6e19c"
+    },
+    {
+      "path": "themes/horizon/stylesheets/misc.scss",
+      "sha256": "f834516d364be12aab6aa822f2ab74e5e18ef5d6514c59005fc36a62e0dc52e3"
+    },
+    {
+      "path": "themes/horizon/stylesheets/mobile-stuff.scss",
+      "sha256": "a97c4fc138f1a02754f82f28f166487a76f16c652f48b9b4c1ae00e7fa30b84f"
+    },
+    {
+      "path": "themes/horizon/stylesheets/nav-pills.scss",
+      "sha256": "fb1c2abc3330bf43bfd3bf7fb852c4dc3c641f1e1f3045e4418bb8a8df91a348"
+    },
+    {
+      "path": "themes/horizon/stylesheets/sidebar-new-topic-button.scss",
+      "sha256": "45e63409e9e730c6319639b1d0e3234b552d2de44da30c1e3003fbc63f1d3898"
+    },
+    {
+      "path": "themes/horizon/stylesheets/sidebar.scss",
+      "sha256": "83558687256b06a106714216b281fd06095e6f6de9d3749645cc5b0c1bd14723"
+    },
+    {
+      "path": "themes/horizon/stylesheets/topic-cards.scss",
+      "sha256": "af05e67b4b1fadd56c925ff44c0a26d014f0ee80ca46b64430d1319d558d639e"
+    },
+    {
+      "path": "themes/horizon/stylesheets/topic-voting.scss",
+      "sha256": "63f470fbeaf51dfceecbe52c885f506a44717a1dc2f8e922b4255dee546248b0"
+    },
+    {
+      "path": "themes/horizon/stylesheets/topic.scss",
+      "sha256": "17a765306c9c1d75022f5112c7fbd5bec671052260cfce1b5c439934302a3fee"
+    },
+    {
+      "path": "themes/horizon/stylesheets/variables.scss",
+      "sha256": "79086c413b916b5ac1c97bda8b03b2ee9608a10b0d0a5f369f633bb098688ce4"
+    },
+    {
+      "path": "themes/horizon/stylesheets/welcome-banner.scss",
+      "sha256": "5d77cf57240d65a04306b6395301930007959a6b719aa2e435689db0b137afce"
+    },
+    {
+      "path": "themes/horizon/test/acceptance/high-context-topic-card-test.gjs",
+      "sha256": "7744dc985ef4e5a42bbc0fd814f59db59538c85f519cb079b88f7e0c82ad8a50"
+    },
+    {
+      "path": "themes/horizon/test/acceptance/nested-suggested-navigation-test.gjs",
+      "sha256": "86157b4fe2c8cf06ae65057f460b893ead638ffa4d25b0fbe8c06c87556455d7"
+    },
+    {
+      "path": "themes/horizon/test/acceptance/sidebar-new-topic-button-test.gjs",
+      "sha256": "219dd953a464b32fac3e95a77ef1e89898f53fbdc9da702f0ee0d8435471afa1"
+    },
+    {
+      "path": "themes/horizon/test/acceptance/topic-activity-column-test.gjs",
+      "sha256": "92658568af196a2a773ad8aea16488a967914a77b31e9b6902caac3ef8284417"
+    },
+    {
+      "path": "themes/horizon/test/integration/helpers/action-test.js",
+      "sha256": "8faaf94cb516087a4cac348e1b16422cd25ba68d16fbb31927ab6057d826f5a0"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/about.json",
+      "sha256": "63fcfad2f67656c4981b053852e498da623472360a34887fe8c056740da2c4c9"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/common/common.scss",
+      "sha256": "f831961e648eb4c049ca043fb701f5a557a06cd7bc73771002d3920844fcd2c2"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/javascripts/discourse/components/topic-list-thumbnail.gjs",
+      "sha256": "e4be6532db3ca21de086a2043b1ddf7c7df4e176b6083dd2b608f0255573c243"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/javascripts/discourse/connectors/before-topic-list-body/topic-list-masonry-styles.gjs",
+      "sha256": "e50091b35bd374c852c277be634eed5dd11d4630e85ea728c48904b4c9acf7ba"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/javascripts/discourse/initializers/topic-thumbnails-init.gjs",
+      "sha256": "0d16b4f9026750a2b75596b11c919e8d3deaf258a3f42b24387596f74c6b43eb"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/javascripts/discourse/lib/masonry-calculator.js",
+      "sha256": "8e6790bda77224bb1b3a653fc156d55d7dff0bc300ff348881ff8459c56b4d62"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/javascripts/discourse/services/topic-thumbnails.js",
+      "sha256": "3e8aa8a94a46fe9fe6207a1f7df96ce2089695095a56a94fae88892cb5c20455"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/ar.yml",
+      "sha256": "19a4a593ca707b4b1c1bbe4221e45cc4aba1aae9bff5df010b48846a822b4a84"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/be.yml",
+      "sha256": "6a55966dae5a8e49ac7361e73324dcd4ab4d1f0793bac41b040f40eb010ff01d"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/bg.yml",
+      "sha256": "4c1fa033d50ce93777316418996798320e6f055f9a98fc8950f2e196a61a8204"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/bs_BA.yml",
+      "sha256": "88e4a67ebe3e8138db0d69504d66432a2958aea2dc3a443e481225ad2465a06b"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/ca.yml",
+      "sha256": "34a00b4e91e08819dbd54db2a3619b0284384c8e6646abec01b1ae646ee906a6"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/cs.yml",
+      "sha256": "01e473b577adb538193e100256ec6d27c2564a67287249cc2baeb7fa4d3dd691"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/da.yml",
+      "sha256": "f4621f2550dfe12e61affd6adaf7e143c80555802c5144400d4ca895faa610f6"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/de.yml",
+      "sha256": "a1289a92d35d9d295c41f58162c449d62a8bb6102cc3a8fe7c808a226685c81b"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/el.yml",
+      "sha256": "7d425634248ff260f7ec8a52634661308a5bb397d27f5d4bc9acaeb74741a36a"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/en.yml",
+      "sha256": "7bd43dc7108391eb747918b08797a9266c82d94406e7e540dc0037a7d6f64e0c"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/en_GB.yml",
+      "sha256": "7f814bda72259da419e5b03955ea2aa631c13ac4efd20d33f95900dd12ec042b"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/es.yml",
+      "sha256": "dda50277a347b0d8a4196d2212614d9dd7ba263fb35daa4ce5fe2f9753b1f8b9"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/et.yml",
+      "sha256": "dfaefcfbac600b0f2ade8697bb68ac1dfa8dcaf334904e73b2bbeeb960661562"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/fa_IR.yml",
+      "sha256": "5a81e591fcfa53e66e4b439733c45dca6fca7f1c336253f298c3ef101a030e2a"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/fi.yml",
+      "sha256": "b8021a48067bcaa106c9e016a8330187a122011da913230fa0dd3dc662f019d1"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/fr.yml",
+      "sha256": "557ce1724f07a7b5c1bdbb0f8fcf4fe09c9bd7fc0987bd580f7bd8c3c9abd26f"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/gl.yml",
+      "sha256": "f2db4d3c2f0d7d135740fbc4b76231fd42a6c9bf4cb187967a346001ea0bd618"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/he.yml",
+      "sha256": "d97d96ab6ba6a5fc6673aed2e363a29da0ed97b3b6a01dbb0ee46b2dfd0f97dd"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/hr.yml",
+      "sha256": "da96a49d62320d6c81a91d8f8960fab92f08bd6061aa470dbb6bf2f38a4c0e24"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/hu.yml",
+      "sha256": "a80119be476bace148fb553c3d8cdfc7c2bbc44cd21ed868d973aa2f034072ae"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/hy.yml",
+      "sha256": "d9d7875b0bff1420bb0c0f8f534d002859c4bdc1e1944e6ad6479e0052dd8816"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/id.yml",
+      "sha256": "6d54604efd0b30be1817e40100dc5b50391aeb405340408e274f967e380eaec9"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/it.yml",
+      "sha256": "92c48db716fdeec5a4e1d774f02aa83744c74c10cf540a48ad445e3257cda650"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/ja.yml",
+      "sha256": "995f53026938fc05154f3c1adca687db76a56496305ddd887ec6fa7377eb44b6"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/ko.yml",
+      "sha256": "7d551fc2901613a475235b594859ad11e21716827247767a086fd31221ed9b2a"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/lt.yml",
+      "sha256": "de2f1035ca9c501045a54c6e0342197c25010c54a901b77bd2696ad2abb6f733"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/lv.yml",
+      "sha256": "4d27f0646ed17355ac2975646d24dec8fdd1ad46caa3b752927047de5eeb0e40"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/nb_NO.yml",
+      "sha256": "675674a3cd6b4087debf7eba7bf4c2e5c8a4ac3ac41212ce27f53d1977f43aa3"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/nl.yml",
+      "sha256": "2aae97d4e9442efb724b60c05e97651e9145c1e7e30da0709b97260bdd7378eb"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/pl_PL.yml",
+      "sha256": "48b2d2fe7faa68afda7e9a2f5467fcdc3bcaea9c956b96c937373b09406e0dc9"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/pt.yml",
+      "sha256": "b9fcb664b87dd314692a1a6ea4ef20d57be6ae21380c1abff13a947fa79f0c9d"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/pt_BR.yml",
+      "sha256": "a064fc03fed95e3fbee2a532e88b7912d3f52f29dcdca26dfded588455b457f4"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/ro.yml",
+      "sha256": "f069ad9e95611509c0d4100039a0f79e130171457b2085d90a3e8b8d793aa98c"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/ru.yml",
+      "sha256": "9645737000f11c3e8f8f81fd5ce1304bcd6ef7c6dd5157f15326d3480a40d217"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/sk.yml",
+      "sha256": "1873362985dc79ffe1169eff9987d2b633f58de4785c843cc614934a2bfff9cc"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/sl.yml",
+      "sha256": "733bf5a3bea839974600da42c0b1db29fdd7afcf9034d2dcf731f7f80b77d7d6"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/sq.yml",
+      "sha256": "8077400cd3f944fcbe7d3f99783c1b07cb4115ccbf28280e008e67f75871dadc"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/sr.yml",
+      "sha256": "ddfbe0aacacfc5764a31a58543bd97d6ecf58cdd33b17f0cda6c3927d3767ae5"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/sv.yml",
+      "sha256": "8ae48d4c3d4272e54ed13a0e247323daf04e311969f0f5ee3e11c925b0184ca1"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/sw.yml",
+      "sha256": "d389bd055abea92f9ffc968a9be393309187876c05b10174f928f95fec87236f"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/te.yml",
+      "sha256": "4020167f33af85886d965cc4d43fb69441cff26d170f4284f3564af3fc932a6c"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/th.yml",
+      "sha256": "14d8535c17c0c9021fcd369ce5e8ee961dc9a50abb57f92f312d9f21c1bf46cd"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/tr_TR.yml",
+      "sha256": "1bd4b06ce5a47dd4f03333e2f414f750ae54f23d015175042c2124acbf6510ea"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/ug.yml",
+      "sha256": "84b067304cb9b43ef526a9b6e9e5b7516f2f5e31e945cf2a8d66aac0189342f1"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/uk.yml",
+      "sha256": "eadc264bd7c2f3e49d174a137880f0699b6575cba52fb812e756dd4c9fc5abc9"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/ur.yml",
+      "sha256": "7de36998e1301368c10f13a80fb3e05d7a913783bc92e880853c38fd69c8de91"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/vi.yml",
+      "sha256": "32a7b556e03cddb41f6f9c1d4fc516fb19c13c8c332d5e1ab613f566fa1de065"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/zh_CN.yml",
+      "sha256": "1030fb0e338e1b66e8246ef37e8893bfd1d2966a9dcf5a99a0850fe47c99c91c"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/locales/zh_TW.yml",
+      "sha256": "f1c5bb6f33675064072253fbbf7777ab6e485e537623c025a09822cf90a51a23"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/mobile/mobile.scss",
+      "sha256": "b01ebf3dbb88007e044031e5a738edf1a813fe095cf7fedd3190f86667c18e0e"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/settings.yml",
+      "sha256": "65b23eccccf120a1443486e807354fed45c2ee5e1a522a5f9b27c50b032250e8"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/test/acceptance/suggested-topics-test.js",
+      "sha256": "aba0f40ed413457f7edfad52d25b22a5f0553be9bd1e22547187e385e2e1961e"
+    },
+    {
+      "path": "themes/topic-list-thumbnails/test/acceptance/tag-thumbnail-mode-test.js",
+      "sha256": "b613a7d1ad660fdb540a81c4f0d79b41598a5c021e1b5073dd00d8763c39ece0"
+    }
+  ]
+}

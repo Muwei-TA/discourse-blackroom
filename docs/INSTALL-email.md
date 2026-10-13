@@ -31,6 +31,25 @@ Enter these values when prompted by `./discourse-setup` per the [install guide](
 
 We recommend creating an [API Key][sg2] instead of using your SendGrid username and password.
 
+#### [Resend](https://resend.com/docs/send-with-smtp)
+
+Use a verified sending domain and a domain-restricted `sending_access` API key.
+The Resend CLI can check the domain with `resend domains list` and create the key with `resend api-keys create --name Discourse --permission sending_access --domain-id <domain-id>`. Store the returned token securely; do not commit it or include it in logs.
+
+In the deployment configuration, set:
+
+```yaml
+DISCOURSE_SMTP_ADDRESS: smtp.resend.com
+DISCOURSE_SMTP_PORT: 465
+DISCOURSE_SMTP_USER_NAME: resend
+DISCOURSE_SMTP_PASSWORD: "<API key>"
+DISCOURSE_SMTP_AUTHENTICATION: plain
+DISCOURSE_SMTP_FORCE_TLS: "true"
+DISCOURSE_SMTP_ENABLE_START_TLS: "false"
+```
+
+Set the `notification_email` site setting to an address on the verified domain. Login codes and invitations use the same SMTP transport. After applying the configuration, trigger both flows and check their delivery with `resend emails list`; confirm receipt in the actual mailbox before testing code entry or invitation redemption.
+
 #### [Mailjet][jet] &mdash; 6k emails/month (200 max/day)
 
 Go to [My Account page](https://app.mailjet.com/account) and click on the ["SMTP and SEND API Settings"](https://app.mailjet.com/account/relay) link to generate a secret key and get the SMTP server address.

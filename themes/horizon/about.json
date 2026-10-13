@@ -1,8 +1,197 @@
 {
   "name": "Horizon",
-  "authors": "Design Team",
-  "theme_version": "1.0.0",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
+  "color_schemes": {
+    "Horizon": {
+      "primary": "1a1a1a",
+      "secondary": "ffffff",
+      "tertiary": "595bca",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "1a1a1a",
+      "highlight": "ffff4d",
+      "selected": "d7dfff",
+      "hover": "e1e8ff",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "595bca"
+    },
+    "Horizon Dark": {
+      "primary": "ffffff",
+      "secondary": "1a1a1a",
+      "tertiary": "6568e6",
+      "quaternary": "e45735",
+      "header_background": "1a1a1a",
+      "header_primary": "ffffff",
+      "highlight": "ffff4d",
+      "selected": "3b3e56",
+      "hover": "333548",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "6568e6"
+    },
+    "Royal": {
+      "primary": "1a1a1a",
+      "secondary": "ffffff",
+      "tertiary": "1f7bc1",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "1a1a1a",
+      "highlight": "ffff4d",
+      "selected": "c7e3ff",
+      "hover": "d6ebff",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "1f7bc1"
+    },
+    "Royal Dark": {
+      "primary": "ffffff",
+      "secondary": "1a1a1a",
+      "tertiary": "1f7bc1",
+      "quaternary": "e45735",
+      "header_background": "1a1a1a",
+      "header_primary": "ffffff",
+      "highlight": "ffff4d",
+      "selected": "3a455f",
+      "hover": "323b4e",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "1f7bc1"
+    },
+    "Clover": {
+      "primary": "1a1a1a",
+      "secondary": "ffffff",
+      "tertiary": "39845b",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "1a1a1a",
+      "highlight": "ffff4d",
+      "selected": "c6f1d5",
+      "hover": "d5f5e0",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "39845b"
+    },
+    "Clover Dark": {
+      "primary": "ffffff",
+      "secondary": "1a1a1a",
+      "tertiary": "39845b",
+      "quaternary": "e45735",
+      "header_background": "1a1a1a",
+      "header_primary": "ffffff",
+      "highlight": "ffff4d",
+      "selected": "47594e",
+      "hover": "3c4a40",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "39845b"
+    },
+    "Lily": {
+      "primary": "1a1a1a",
+      "secondary": "ffffff",
+      "tertiary": "cc338c",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "1a1a1a",
+      "highlight": "ffff4d",
+      "selected": "ffc8ee",
+      "hover": "ffd7f3",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "cc338c"
+    },
+    "Lily Dark": {
+      "primary": "ffffff",
+      "secondary": "1a1a1a",
+      "tertiary": "cc338c",
+      "quaternary": "e45735",
+      "header_background": "1a1a1a",
+      "header_primary": "ffffff",
+      "highlight": "ffff4d",
+      "selected": "5f3e4e",
+      "hover": "4e3640",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "cc338c"
+    },
+    "Violet": {
+      "primary": "1a1a1a",
+      "secondary": "ffffff",
+      "tertiary": "9b15de",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "1a1a1a",
+      "highlight": "ffff4d",
+      "selected": "feccff",
+      "hover": "ffd9ff",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "9b15de"
+    },
+    "Violet Dark": {
+      "primary": "ffffff",
+      "secondary": "1a1a1a",
+      "tertiary": "9b15de",
+      "quaternary": "e45735",
+      "header_background": "1a1a1a",
+      "header_primary": "ffffff",
+      "highlight": "ffff4d",
+      "selected": "4c385c",
+      "hover": "40314c",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "9b15de"
+    },
+    "Marigold": {
+      "primary": "1a1a1a",
+      "secondary": "ffffff",
+      "tertiary": "d3881f",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "1a1a1a",
+      "highlight": "ffff4d",
+      "selected": "ffdcb2",
+      "hover": "ffe6c6",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "d3881f"
+    },
+    "Marigold Dark": {
+      "primary": "ffffff",
+      "secondary": "1a1a1a",
+      "tertiary": "d3881f",
+      "quaternary": "e45735",
+      "header_background": "1a1a1a",
+      "header_primary": "ffffff",
+      "highlight": "ffff4d",
+      "selected": "6c5b49",
+      "hover": "584b3e",
+      "danger": "c80001",
+      "success": "090",
+      "love": "fa6c8d",
+      "tertiary-med-or-tertiary": "d3881f"
+    }
+  },
   "modifiers": {
+    "serialize_topic_excerpts": true,
     "svg_icons": [
       "fire",
       "far-square-check",
@@ -12,140 +201,7 @@
       "heart",
       "user-plus"
     ],
-    "serialize_topic_is_hot": true,
-    "serialize_topic_excerpts": {
-      "type": "setting",
-      "value": "topic_card_high_context"
-    }
+    "serialize_topic_is_hot": true
   },
-  "color_schemes": {
-    "Horizon": {
-      "primary": "1A1A1A",
-      "secondary": "ffffff",
-      "tertiary": "595bca",
-      "tertiary-med-or-tertiary": "595bca",
-      "selected": "d7dfff",
-      "header_background": "ffffff",
-      "header_primary": "1A1A1A",
-      "hover": "E1E8FF"
-    },
-    "Horizon Dark": {
-      "primary": "ffffff",
-      "secondary": "1A1A1A",
-      "tertiary": "6568e6",
-      "tertiary-med-or-tertiary": "6568e6",
-      "selected": "3b3e56",
-      "header_background": "1A1A1A",
-      "header_primary": "ffffff",
-      "hover": "333548"
-    },
-    "Royal": {
-      "primary": "1A1A1A",
-      "secondary": "ffffff",
-      "tertiary": "1F7BC1",
-      "tertiary-med-or-tertiary": "1F7BC1",
-      "selected": "c7e3ff",
-      "header_background": "ffffff",
-      "header_primary": "1A1A1A",
-      "hover": "D6EBFF"
-    },
-    "Royal Dark": {
-      "primary": "ffffff",
-      "secondary": "1A1A1A",
-      "tertiary": "1F7BC1",
-      "tertiary-med-or-tertiary": "1F7BC1",
-      "selected": "3a455f",
-      "header_background": "1A1A1A",
-      "header_primary": "ffffff",
-      "hover": "323B4E"
-    },
-    "Clover": {
-      "primary": "1A1A1A",
-      "secondary": "ffffff",
-      "tertiary": "39845B",
-      "tertiary-med-or-tertiary": "39845B",
-      "selected": "c6f1d5",
-      "header_background": "ffffff",
-      "header_primary": "1A1A1A",
-      "hover": "D5F5E0"
-    },
-    "Clover Dark": {
-      "primary": "ffffff",
-      "secondary": "1A1A1A",
-      "tertiary": "39845B",
-      "tertiary-med-or-tertiary": "39845B",
-      "selected": "47594e",
-      "header_background": "1A1A1A",
-      "header_primary": "ffffff",
-      "hover": "3C4A40"
-    },
-    "Lily": {
-      "primary": "1A1A1A",
-      "secondary": "ffffff",
-      "tertiary": "cc338c",
-      "tertiary-med-or-tertiary": "cc338c",
-      "selected": "ffc8ee",
-      "header_background": "ffffff",
-      "header_primary": "1A1A1A",
-      "hover": "FFD7F3"
-    },
-    "Lily Dark": {
-      "primary": "ffffff",
-      "secondary": "1A1A1A",
-      "tertiary": "cc338c",
-      "tertiary-med-or-tertiary": "cc338c",
-      "selected": "5f3e4e",
-      "header_background": "1A1A1A",
-      "header_primary": "ffffff",
-      "hover": "4E3640"
-    },
-    "Violet": {
-      "primary": "1A1A1A",
-      "secondary": "ffffff",
-      "tertiary": "9b15de",
-      "tertiary-med-or-tertiary": "9b15de",
-      "selected": "feccff",
-      "header_background": "ffffff",
-      "header_primary": "1A1A1A",
-      "hover": "FFD9FF"
-    },
-    "Violet Dark": {
-      "primary": "ffffff",
-      "secondary": "1A1A1A",
-      "tertiary": "9b15de",
-      "tertiary-med-or-tertiary": "9b15de",
-      "selected": "4c385c",
-      "header_background": "1A1A1A",
-      "header_primary": "ffffff",
-      "hover": "40314C"
-    },
-    "Marigold": {
-      "primary": "1A1A1A",
-      "secondary": "ffffff",
-      "tertiary": "d3881f",
-      "tertiary-med-or-tertiary": "d3881f",
-      "selected": "ffdcb2",
-      "header_background": "ffffff",
-      "header_primary": "1A1A1A",
-      "hover": "FFE6C6"
-    },
-    "Marigold Dark": {
-      "primary": "ffffff",
-      "secondary": "1A1A1A",
-      "tertiary": "d3881f",
-      "tertiary-med-or-tertiary": "d3881f",
-      "selected": "6c5b49",
-      "header_background": "1A1A1A",
-      "header_primary": "ffffff",
-      "hover": "584B3E"
-    }
-  },
-  "screenshots": [
-    "screenshots/light.png",
-    "screenshots/dark.png"
-  ],
-  "theme_site_settings": {
-    "enable_welcome_banner": true,
-    "search_experience": "search_field"
-  }
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }

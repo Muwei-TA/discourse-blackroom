@@ -1,0 +1,5 @@
+// The vendor popup must sit above the composer and its floating image controls.
+.__markerjs2_ {
+  z-index: 100000 !important;
+  position: fixed !important;
+}

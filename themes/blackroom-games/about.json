@@ -1,0 +1,19 @@
+{
+  "name": "BlackRoom Games",
+  "component": true,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "bonk_cover": "assets/bonk_cover.png",
+    "drawpile_cover": "assets/drawpile_cover.svg",
+    "freeboardgames_cover": "assets/freeboardgames_cover.svg",
+    "skribbl_cover": "assets/skribbl_cover.png"
+  },
+  "color_schemes": {},
+  "modifiers": {},
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

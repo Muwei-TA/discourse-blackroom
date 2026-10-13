@@ -1,0 +1,18 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+te:
+  js:
+    admin:
+      docker:
+        last_updated: "చివరిగా నవీకరించబడింది:"
+        outdated_notice: "మీ డిస్కోర్సు ప్రతిష్టాపన కాలాతీతమైంది."
+        status: "స్థితి"
+        update_action: "నవీకరించండి"
+        updating: "నవీకరిస్తోంది…"
+        repo:
+          name: "పేరు"
+          status: "స్థితి"

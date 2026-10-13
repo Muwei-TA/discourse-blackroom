@@ -1,0 +1,52 @@
+en:
+  js:
+    admin:
+      docker:
+        all_up_to_date: "All up-to-date"
+        checking: "Checking for new version…"
+        commits:
+          one: "%{count} new commit"
+          other: "%{count} new commits"
+        everything_up_to_date: "Everything is up-to-date"
+        forked_plugin: "Forked official plugin"
+        last_updated: "Last updated:"
+        latest_version: "Latest version:"
+        main_branch_warning: "<b>WARNING:</b> Your Discourse is tracking the 'main' branch which may be unstable, <a href='%{url}'> we recommend tracking the 'latest' branch</a>."
+        navigation:
+          processes: Processes
+          versions: Versions
+        new_version_available: "New version available!"
+        official_plugin: "Official plugin"
+        outdated_image_header: "You are running an old version of the Discourse image"
+        outdated_image_info: "Updates via the web UI are disabled until you run the latest image. To do so log in to your server using SSH and run:"
+        outdated_image_link: "More info on our support site"
+        outdated_notice: "Your Discourse installation is out of date."
+        perform_update: "Click here to update."
+        repo_newest_version: "%{name} is at the newest version."
+        repository: "Repository"
+        reset_update: "Reset Update"
+        reset_warning: "WARNING: You should only reset updates that have failed and are not running. This will NOT cancel currently running builds and should only be used as a last resort."
+        start_updating: "Start Updating"
+        status: "Status"
+        up_to_date: "Up to date"
+        update_action: "Update"
+        update_all: "Update All"
+        update_error: "Sorry, there was an error updating Discourse. Please check the logs below."
+        update_everything: "Update everything"
+        update_repo: "Update %{name}"
+        update_successful: "Update completed successfully!"
+        update_tab: "Update Discourse"
+        update_title: "Updates"
+        update_description: "Update Discourse and view running processes."
+        updating: "Updating…"
+        repo:
+          name: "Name"
+          commit_hash: "Commit Hash"
+          last_updated: "Last Updated"
+          latest_version: "Latest Version"
+          status: "Status"
+
+      logs:
+        staff_actions:
+          actions:
+            discourse_update: "Update to the latest version"

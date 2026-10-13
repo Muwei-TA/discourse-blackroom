@@ -1,0 +1,23 @@
+{
+  "forum_origin": "https://discourse.muwei.xyz",
+  "forum_internal": "http://forum",
+  "category_slug": "games",
+  "games": [
+    {
+      "id": "bonk",
+      "title": "黑房弹球",
+      "description": "与朋友创建房间，一起弹球对战。",
+      "origin": "https://bonk.muwei.xyz",
+      "upstream": "http://bonk:3000",
+      "websocket_paths": [{ "path": "/ws", "match": "exact" }]
+    },
+    {
+      "id": "skribbl",
+      "title": "你画我猜",
+      "description": "创建房间，轮流绘画和猜词。",
+      "origin": "https://skribbl.muwei.xyz",
+      "upstream": "http://skribbl:3000",
+      "websocket_paths": [{ "path": "/socket.io/", "match": "prefix" }]
+    }
+  ]
+}

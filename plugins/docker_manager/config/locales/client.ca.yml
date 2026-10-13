@@ -1,0 +1,24 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+ca:
+  js:
+    admin:
+      docker:
+        checking: "S'està comprovant la nova versió…"
+        everything_up_to_date: "Tot està al dia"
+        last_updated: "Darrera actualització:"
+        navigation:
+          processes: Processos
+          versions: Versions
+        outdated_notice: "La instal·lació de Discourse no està actualitzada."
+        repository: "Repositori"
+        status: "Estat"
+        up_to_date: "Actualitzat"
+        repo:
+          name: "Nom"
+          last_updated: "Última actualització"
+          status: "Estat"

@@ -1,0 +1,113 @@
+.br-games-channel {
+  margin-block: 1.5em 2em;
+
+  &__eyebrow {
+    color: var(--primary-medium);
+    font-size: 0.8em;
+    letter-spacing: 0.15em;
+  }
+
+  &__heading h1 {
+    margin-block: 0.25em;
+    font-size: clamp(2em, 6vw, 3.5em);
+  }
+
+  &__heading p {
+    color: var(--primary-high);
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 22em), 1fr));
+    gap: 1.5em;
+    margin-block: 1.5em;
+  }
+
+  &__note {
+    color: var(--primary-medium);
+    font-size: 0.9em;
+  }
+}
+
+.br-games-card {
+  border: 1px solid var(--primary-low);
+  border-radius: 1em;
+  overflow: hidden;
+
+  &__art {
+    aspect-ratio: 2 / 1;
+    background-color: #dddfff;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &[data-game="bonk"] &__art {
+    background-image: url($bonk_cover);
+  }
+
+  &[data-game="skribbl"] &__art {
+    background-image: url($skribbl_cover);
+  }
+
+  &[data-game="drawpile"] &__art {
+    background-image: url($drawpile_cover);
+  }
+
+  &[data-game="freeboardgames"] &__art {
+    background-image: url($freeboardgames_cover);
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+  }
+
+  &__actions form {
+    margin: 0;
+  }
+
+  &__body {
+    padding: 1.5em;
+  }
+
+  &__body p {
+    min-block-size: 3em;
+    color: var(--primary-high);
+    line-height: 1.65;
+  }
+}
+
+.br-games-player {
+  border: 1px solid var(--primary-low);
+  border-radius: 0.75em;
+  margin-block-end: 2em;
+  overflow: hidden;
+  background: var(--secondary);
+
+  &__toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+  }
+
+  &__toolbar h2 {
+    margin-block: 0 0.35em;
+  }
+
+  &__toolbar p {
+    margin: 0;
+    max-inline-size: 42em;
+    color: var(--primary-high);
+  }
+
+  &__note {
+    margin: 0;
+    padding: 0 1em 1em;
+    color: var(--primary-medium);
+  }
+}

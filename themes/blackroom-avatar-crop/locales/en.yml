@@ -1,0 +1,8 @@
+en:
+  title: "Crop avatar"
+  instructions: "Drag to reposition and use the slider to zoom. You can also focus the preview and use arrow keys. Confirm to upload a still avatar."
+  preview: "Circular avatar preview; drag or use arrow keys to reposition"
+  zoom: "Zoom"
+  cancel: "Cancel"
+  confirm: "Confirm upload"
+  error: "This image could not be processed. Please try another image."

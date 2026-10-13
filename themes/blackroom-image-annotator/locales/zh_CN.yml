@@ -1,0 +1,8 @@
+zh_CN:
+  theme_metadata:
+    description: "在发帖编辑器中给站内图片添加箭头、方框与文字。"
+  annotate: "图片标注"
+  select_image: "请先在编辑器中点击一张已上传的静态图片，再点击“图片标注”。Markdown 模式请使用预览图片旁的“标注”按钮。"
+  changed: "原图片或编辑内容已改变，未替换图片。请重新选择图片进行标注。"
+  failed: "图片标注保存失败，原图片未修改。请重试。"
+  preview_button: "标注"

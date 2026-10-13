@@ -1,0 +1,85 @@
+# frozen_string_literal: true
+
+# name: discourse-doc-categories
+# about: Provides the ability for particular categories to be set aside for documentation, enabling additional features for them.
+# meta_topic_id: 322376
+# version: 0.0.1
+# authors: Discourse
+# url: https://github.com/discourse/discourse-doc-categories
+# required_version: 3.3.0.beta4-dev
+
+enabled_site_setting :doc_categories_enabled
+
+register_asset "stylesheets/common.scss"
+
+GlobalSetting.add_default :docs_path, "docs"
+
+register_svg_icon "far-file"
+
+module ::DocCategories
+  PLUGIN_NAME = "discourse-doc-categories"
+
+  def self.legacy_mode?
+    # disable the compatibility mode if the docs plugin is enabled
+    return false if defined?(::Docs) && SiteSetting.docs_enabled
+    SiteSetting.doc_categories_docs_legacy_enabled
+  end
+
+  class Initializer
+    attr_reader :plugin
+
+    def initialize(plugin)
+      @plugin = plugin
+    end
+
+    def apply
+      # this method should be overridden by subclasses
+      raise NotImplementedError
+    end
+  end
+
+  module Initializers
+    module_function
+
+    def apply(plugin)
+      constants.each do |c|
+        klass = const_get(c)
+        klass.new(plugin).apply if klass.is_a?(Class) && klass < Initializer
+      end
+    end
+  end
+end
+
+require_relative "lib/doc_categories/engine"
+
+after_initialize do
+  # legacy docs
+  add_to_serializer(
+    :site,
+    :docs_legacy_path,
+    include_condition: -> { DocCategories.legacy_mode? },
+  ) { GlobalSetting.docs_path }
+
+  reloadable_patch { Category.prepend ::DocCategories::Initializers::CategoryExtension }
+
+  DocCategories::Initializers.apply(self)
+
+  # this plugin uses a plugin initializer pattern to (hopefully) better organize plugin API calls
+  # instead of having them all in one file.
+  #
+  # PLEASE add the plugin code into a separate file in the lib/doc_categories/initializers folder, where
+  # they can be organized by theme or feature.
+  #
+  # To create the plugin initializer file, you should follow the pattern below:
+  #
+  # module ::DocCategories
+  #   module Initializers
+  #     class SampleInitializer < Initializer
+  #       def apply
+  #         # use plugin.add_to_class, plugin.add_to_serializer, etc. here
+  #         # eg. plugin.add_to_serializer(...)
+  #       end
+  #     end
+  #   end
+  # end
+end

@@ -1,0 +1,54 @@
+x-gateway: &gateway
+  image: ${BLACKROOM_GATEWAY_IMAGE:?Set the tested gateway image digest}
+  user: "1000:1000"
+  read_only: true
+  init: true
+  restart: unless-stopped
+  cap_drop: [ALL]
+  security_opt: [no-new-privileges:true]
+  cpus: 0.5
+  mem_limit: 256m
+  pids_limit: 64
+  tmpfs: ["/tmp:size=8m,mode=1777"]
+  healthcheck:
+    test:
+      [
+        CMD,
+        node,
+        -e,
+        "const s=require('net').connect(8080,'127.0.0.1',()=>{s.end();process.exit(0)});s.on('error',()=>process.exit(1));setTimeout(()=>process.exit(1),2000)",
+      ]
+    interval: 30s
+    timeout: 3s
+    retries: 3
+  logging:
+    driver: json-file
+    options:
+      max-size: 10m
+      max-file: "3"
+
+services:
+  gateway-bonk:
+    <<: *gateway
+    volumes:
+      - ./private/gateway-bonk.json:/run/blackroom/gateway.json:ro
+    networks: [ingress, bonk-backend]
+  gateway-skribbl:
+    <<: *gateway
+    volumes:
+      - ./private/gateway-skribbl.json:/run/blackroom/gateway.json:ro
+    networks: [ingress, skribbl-backend]
+
+# Connect each separately managed game only to its own internal backend.
+# The connector uses ingress; forumInternal must also be reachable from ingress.
+# Private files must be owned by UID 1000 with mode 0600.
+networks:
+  ingress:
+    external: true
+    name: blackroom-games-ingress
+  bonk-backend:
+    internal: true
+    name: blackroom-games-bonk-backend
+  skribbl-backend:
+    internal: true
+    name: blackroom-games-skribbl-backend

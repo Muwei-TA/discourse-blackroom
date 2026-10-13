@@ -1,0 +1,10 @@
+en:
+  channel: "Games"
+  tagline: "Take a break. Play together."
+  enter: "Enter game"
+  member_note: "Available to signed-in BlackRoom members. Game rooms and forum discussions are separate."
+  start: "Play in a new page"
+  idle: "Desktop only. Play in a new page and close it to leave; the forum discussion stays here."
+  unavailable: "The game directory is unavailable. Please reload and try again."
+  platform: "Continue to the game platform (login may be required)"
+  discussion: "Instructions & discussion"

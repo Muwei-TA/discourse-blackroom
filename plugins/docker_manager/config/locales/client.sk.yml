@@ -1,0 +1,19 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+sk:
+  js:
+    admin:
+      docker:
+        last_updated: "Posledná aktualizácia:"
+        outdated_notice: " Vaša Discourse inštalácia je neaktuálna."
+        status: "Stav"
+        update_action: "Aktualizovať"
+        updating: "Aktualizujem..."
+        repo:
+          name: "Meno"
+          last_updated: "Naposledy aktualizovaný"
+          status: "Stav"

@@ -1,0 +1,13 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+sw:
+  js:
+    admin:
+      docker:
+        outdated_notice: "Toleo lako la Discourse limepitwa na wakati."
+        repo:
+          name: "Jina"

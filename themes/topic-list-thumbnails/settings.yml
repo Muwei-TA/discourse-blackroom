@@ -1,0 +1,98 @@
+default_thumbnail_mode:
+  default: grid
+  type: enum
+  choices:
+    - minimal-grid
+    - grid
+    - masonry
+    - list
+    - blog-style
+    - none
+
+docs_thumbnail_mode:
+  default: none
+  type: enum
+  choices:
+    - minimal-grid
+    - grid
+    - list
+    - blog-style
+    - none
+
+blog_style_categories:
+  type: list
+  list_type: category
+  default: ""
+
+minimal_grid_categories:
+  type: list
+  list_type: category
+  default: ""
+
+grid_categories:
+  type: list
+  list_type: category
+  default: ""
+
+masonry_categories:
+  type: list
+  list_type: category
+  default: ""
+
+list_categories:
+  type: list
+  list_type: category
+  default: ""
+
+blog_style_tags:
+  type: list
+  list_type: tag
+  default: ""
+
+minimal_grid_tags:
+  type: list
+  list_type: tag
+  default: ""
+
+grid_tags:
+  type: list
+  list_type: tag
+  default: ""
+
+masonry_tags:
+  type: list
+  list_type: tag
+  default: ""
+
+list_tags:
+  type: list
+  list_type: tag
+  default: ""
+
+suggested_topics_mode:
+  default: ""
+  type: enum
+  choices:
+    - ""
+    - minimal-grid
+    - grid
+    - masonry
+    - list
+    - blog-style
+    - none
+
+enable_outside_topic_lists: false
+
+placeholder_icon:
+  default: "comments"
+
+mobile_thumbnails:
+  default: true
+
+list_thumbnail_size:
+  client: true
+  default: 200
+  type: enum
+  choices:
+    - 200
+    - 400

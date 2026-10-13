@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><title>播客元数据检查</title><body><pre id="result">检查中</pre><script type="module">
+import { formatTime, mediaUrl, podcastMetadata } from "../javascripts/discourse/lib/podcast-metadata.js";
+function assert(value, message) { if (!value) { throw new Error(message); } }
+const base = "https://example.test";
+assert(mediaUrl("javascript:alert(1)", base) === null, "Reject script URLs");
+assert(mediaUrl("data:audio/mp3;base64,eA==", base) === null, "Reject data URLs");
+assert(mediaUrl("/recording.mp3", base) === base + "/recording.mp3", "Resolve local media");
+assert(formatTime(NaN) === "00:00" && formatTime(-1) === "00:00" && formatTime(125) === "02:05", "Time formatting");
+const data = podcastMetadata('<p>07:00 unrelated prose</p><img class="emoji" src="/emoji.png"><audio><source src="/welcome.mp3"></audio><h2>时间轴（可选）</h2><p>00:00 开场<br>01:12 第二章<br>00:99 invalid</p><h2>讨论</h2><p>03:00 not a chapter</p>', base);
+assert(data.source === base + "/welcome.mp3", "Read native audio source");
+assert(data.image === null, "Emoji is not a cover");
+assert(data.chapters.length === 2 && data.chapters[1].seconds === 72, "BR timestamps, invalid timestamps and section boundary");
+const list = podcastMetadata('<h2>Chapters</h2><ul><li>00:10 First</li><li>01:02:03 Later</li></ul>', base);
+assert(list.chapters.length === 2 && list.chapters[1].seconds === 3723, "List timestamps and hour conversion");
+assert(podcastMetadata('<audio src="javascript:alert(1)"></audio>', base).source === null, "Reject unsafe source from cooked content");
+document.querySelector('#result').textContent = 'PASS: media URL trust boundary, native audio source, emoji exclusion, timestamp lines/lists, invalid timestamps, section boundaries, time formatting.';
+</script></body></html>

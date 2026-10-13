@@ -1,0 +1,37 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+zh_CN:
+  admin_js:
+    admin:
+      dashboard:
+        reports:
+          filters:
+            doc_category:
+              label: "类别"
+            include_topic_from_subcategories:
+              label: "包括子类别中的话题"
+      site_settings:
+        categories:
+          doc_categories: "文档类别"
+  js:
+    doc_categories:
+      simple_mode:
+        show_comments:
+          other: "显示 %{count} 条评论"
+        hide_comments: "隐藏评论"
+        updated: "更新时间"
+      category_settings:
+        title: "文档模式"
+        index_topic:
+          label: "索引话题"
+          errors:
+            topic_not_found: "找不到话题！索引将不会显示"
+            mismatched-category: "由于话题属于不同的类别（%{category_name}），索引将不会显示"
+      sidebar:
+        filter:
+          no_results:
+            description: '我们找不到任何与“%{filter}”匹配的内容。<br><br>您想改为在<a class="docs-sidebar-suggested-category-search" href="%{content_search_url}">此类别中搜索</a>，还是进行<a class="docs-sidebar-suggested-site-search" href="%{site_search_url}">全站搜索</a>？'

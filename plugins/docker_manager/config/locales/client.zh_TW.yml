@@ -1,0 +1,17 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+zh_TW:
+  js:
+    admin:
+      docker:
+        last_updated: "上次更新："
+        outdated_notice: "您的 Discourse 版本已過期。"
+        status: "狀態"
+        update_action: "更新"
+        repo:
+          name: "名字"
+          status: "狀態"

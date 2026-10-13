@@ -1,0 +1,32 @@
+en:
+  admin_js:
+    admin:
+      dashboard:
+        reports:
+          filters:
+            doc_category:
+              label: "Category"
+            include_topic_from_subcategories:
+              label: "Include topics from subcategories"
+      site_settings:
+        categories:
+          doc_categories: "Documentation Categories"
+  js:
+    doc_categories:
+      simple_mode:
+        show_comments:
+          one: "Show %{count} comment"
+          other: "Show %{count} comments"
+        hide_comments: "Hide comments"
+        updated: "Updated"
+      category_settings:
+        title: "Documentation Mode"
+        index_topic:
+          label: "Index Topic"
+          errors:
+            topic_not_found: "Topic not found! The index won't be displayed"
+            mismatched-category: "The index won't be displayed because the topic belongs to a different category: %{category_name}"
+      sidebar:
+        filter:
+          no_results:
+            description: 'We couldn’t find anything matching ‘%{filter}’.<br><br>Do you want to perform a <a class="docs-sidebar-suggested-category-search" href="%{content_search_url}">search on this category</a> or a <a class="docs-sidebar-suggested-site-search" href="%{site_search_url}">site wide search</a> instead?'

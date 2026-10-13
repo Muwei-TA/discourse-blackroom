@@ -1,0 +1,17 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+id:
+  js:
+    admin:
+      docker:
+        last_updated: "Terakhir diperbarui:"
+        outdated_notice: "Instalasi Discourse Anda usang."
+        status: "Status"
+        repo:
+          name: "Nama"
+          last_updated: "Terakhir Diperbarui"
+          status: "Status"

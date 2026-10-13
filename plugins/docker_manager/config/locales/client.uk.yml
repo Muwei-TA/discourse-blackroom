@@ -1,0 +1,22 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+uk:
+  js:
+    admin:
+      docker:
+        checking: "Перевірка нової версії…"
+        everything_up_to_date: "Все в актуальному стані"
+        last_updated: "Останнє оновлення:"
+        outdated_notice: "Your Discourse installation is out of date."
+        status: "Статус"
+        update_action: "Оновити"
+        updating: "Оновлення…"
+        repo:
+          name: "Імʼя"
+          last_updated: "Останнє оновлення"
+          latest_version: "Остання версія"
+          status: "Статус"

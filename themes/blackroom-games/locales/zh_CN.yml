@@ -1,0 +1,10 @@
+zh_CN:
+  channel: "游戏"
+  tagline: "和朋友一起，玩一会儿。"
+  enter: "进入游戏"
+  member_note: "仅向 BlackRoom 登录成员开放。游戏房间与论坛讨论互相独立。"
+  start: "在新页面开始游戏"
+  idle: "仅支持桌面端。在新页面游玩，关闭游戏页面即可退出；论坛讨论保留在此页。"
+  unavailable: "游戏目录暂时无法加载，请刷新后重试。"
+  platform: "前往游戏平台（可能需要登录）"
+  discussion: "玩法说明与讨论"

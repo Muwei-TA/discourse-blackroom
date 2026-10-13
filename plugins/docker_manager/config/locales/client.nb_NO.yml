@@ -1,0 +1,18 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+nb_NO:
+  js:
+    admin:
+      docker:
+        last_updated: "Sist oppdatert:"
+        outdated_notice: "Din Discourse-installasjon kjører ikke siste versjon."
+        status: "Status"
+        update_action: "Oppdater"
+        repo:
+          name: "Navn"
+          last_updated: "Sist oppdatert"
+          status: "Status"

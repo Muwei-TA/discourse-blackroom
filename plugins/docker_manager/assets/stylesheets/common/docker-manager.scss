@@ -1,0 +1,164 @@
+/* stylelint-disable discourse/no-breakpoint-mixin */
+.dashboard-stats .upgrades-banner {
+  background: var(--tertiary-low);
+  flex: 1 1 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+
+  &.upgrade-needed {
+    background: var(--danger-low);
+
+    a {
+      color: var(--danger);
+    }
+  }
+
+  a {
+    font-weight: bold;
+  }
+}
+
+.docker-manager {
+  h1 {
+    margin-top: 1rem;
+  }
+
+  .console-logs {
+    background-color: var(--secondary-very-high);
+    color: var(--primary-900);
+    font-family: monospace;
+    height: 400px;
+    margin-top: 1rem;
+    overflow-x: scroll;
+    padding: 1rem;
+    white-space: pre;
+  }
+
+  .repo__new-version {
+    font-size: var(--font-down-1);
+    font-weight: bold;
+    margin: var(--space-1) 0 var(--space-1) 0;
+  }
+
+  .commit-hash {
+    color: var(--primary);
+  }
+
+  .upgrade-actions {
+    display: flex;
+    justify-content: space-between;
+
+    button.unlock {
+      background-color: var(--danger);
+      color: var(--secondary);
+
+      &:hover,
+      &:focus {
+        background-color: var(--danger-hover);
+      }
+    }
+  }
+
+  #banner {
+    margin: 1rem 0;
+
+    p:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  .progress-bar {
+    background: var(--secondary-very-high);
+    height: 1.5rem;
+    margin-bottom: 1rem;
+
+    &-inner {
+      --stripes: linear-gradient(
+        135deg,
+        var(--tertiary-400) 25%,
+        var(--tertiary-600) 25%,
+        var(--tertiary-600) 50%,
+        var(--tertiary-400) 50%,
+        var(--tertiary-400) 75%,
+        var(--tertiary-600) 75%,
+        var(--tertiary-600)
+      );
+      background: var(--tertiary-600);
+      background-image: var(--stripes);
+      background-size: 2rem 2rem;
+      height: 100%;
+    }
+
+    &.active .progress-bar-inner {
+      animation: progress-bar-stripes 1.5s linear infinite;
+      transition: width 0.6s ease;
+
+      @media screen and (prefers-reduced-motion: reduce) {
+        animation: none;
+        transition: none;
+      }
+    }
+
+    @keyframes progress-bar-stripes {
+      from {
+        background-position: 0 0;
+      }
+
+      to {
+        background-position: 2rem 0;
+      }
+    }
+  }
+
+  .d-table {
+    margin-bottom: var(--space-6);
+  }
+
+  .d-table__row.repo {
+    .d-table__cell.--overview {
+      width: 45%;
+
+      @include breakpoint("tablet") {
+        width: auto;
+      }
+    }
+
+    .d-table__cell.--controls {
+      width: 12%; // set width to minimize layout shift
+      text-align: left;
+
+      @include breakpoint("tablet") {
+        width: auto;
+      }
+    }
+
+    &.has-update {
+      background-color: var(--tertiary-very-low);
+      border-left: solid 3px var(--tertiary);
+    }
+
+    .repo__latest-version {
+      @include breakpoint("tablet") {
+        text-align: right;
+      }
+    }
+  }
+
+  .status-label {
+    &.--loading {
+      background-color: transparent;
+      color: var(--primary-medium);
+    }
+  }
+
+  .updates-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+
+    h3 {
+      line-height: 40px;
+      margin-bottom: 0;
+    }
+  }
+}

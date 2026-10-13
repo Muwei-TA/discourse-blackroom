@@ -1,0 +1,8 @@
+en:
+  theme_metadata:
+    description: "Annotate uploaded images with arrows, boxes and text in the composer."
+  annotate: "Annotate image"
+  select_image: "Select an uploaded still image in the editor, then click Annotate image. In Markdown mode, use Annotate beside the preview image."
+  changed: "The image or editor content changed. Nothing was replaced. Select the image again."
+  failed: "Could not save the annotation. The original image is unchanged. Please retry."
+  preview_button: "Annotate"

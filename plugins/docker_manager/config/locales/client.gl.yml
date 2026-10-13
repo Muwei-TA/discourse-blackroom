@@ -1,0 +1,31 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+gl:
+  js:
+    admin:
+      docker:
+        checking: "Comprobando se hai unha nova versión…"
+        commits:
+          one: "%{count} novo commit"
+          other: "%{count} novos commits"
+        everything_up_to_date: "Todo está actualizado"
+        navigation:
+          processes: Procesos
+          versions: Versións
+        outdated_image_header: "Estás executando unha versión antiga da imaxe de Discourse"
+        outdated_image_link: "Máis información na nosa páxina de soporte"
+        outdated_notice: "A túa versión de Discourse está sen actualizar."
+        repo_newest_version: "%{name} está na versión máis recente."
+        repository: "Repositorio"
+        status: "Estado"
+        up_to_date: "Actualizado"
+        update_action: "Actualizar"
+        repo:
+          name: "Nome"
+          last_updated: "Última actualización"
+          latest_version: "Última versión"
+          status: "Estado"

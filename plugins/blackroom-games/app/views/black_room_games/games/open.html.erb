@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>正在打开 <%= @game.fetch("title") %></title>
+  <style nonce="<%= @nonce %>">
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; color: #e9edff; background: #101425; }
+    main { width: min(100%, 420px); padding: 48px 28px; border: 1px solid #313850; border-radius: 24px; text-align: center; background: #191f34; }
+    .brand { margin: 0 0 32px; color: #b4bddc; font-size: 12px; letter-spacing: .18em; }
+    .loader { width: 56px; height: 56px; margin: 0 auto 28px; border: 3px solid #343e61; border-top-color: #abb5ff; border-radius: 50%; animation: spin 1s linear infinite; }
+    h1 { margin: 0 0 12px; font-size: 24px; }
+    p { line-height: 1.6; color: #c4cbe1; }
+    button { margin-top: 12px; padding: 12px 22px; border: 1px solid #b4bfff; border-radius: 10px; color: #141b34; background: #c5ceff; font: inherit; cursor: pointer; }
+    button:focus-visible { outline: 3px solid white; outline-offset: 4px; }
+    .note { margin-bottom: 0; font-size: 13px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .loader { animation: none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">BLACKROOM / PLAY TOGETHER</p>
+    <div class="loader" aria-hidden="true"></div>
+    <div role="status" aria-live="polite">
+      <h1>正在打开 <%= @game.fetch("title") %></h1>
+      <p>即将进入游戏，论坛页面会为你保留。</p>
+    </div>
+    <form id="game-launch" method="post" action="<%= @game.fetch("origin") %>/_blackroom/open">
+      <input type="hidden" name="ticket" value="<%= @ticket %>">
+      <input type="hidden" name="browser_state" value="<%= @state %>">
+      <input type="hidden" name="room" value="<%= @room %>">
+      <button type="submit">继续进入游戏</button>
+    </form>
+    <p class="note">若未自动跳转，请点击上方按钮。</p>
+  </main>
+  <script nonce="<%= @nonce %>">document.getElementById("game-launch").submit();</script>
+</body>
+</html>

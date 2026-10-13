@@ -1,0 +1,58 @@
+# WARNING: Never edit this file.
+# It will be overwritten when translations are pulled from Crowdin.
+#
+# To work with us on translations, join this project:
+# https://translate.discourse.org/
+
+he:
+  js:
+    admin:
+      docker:
+        all_up_to_date: "הכול עדכני"
+        checking: "מתבצע איתור לגרסה חדשה…"
+        commits:
+          one: "הגשה %{count} חדשה"
+          two: "%{count} הגשות חדשות"
+          many: "%{count} הגשות חדשות"
+          other: "%{count} הגשות חדשות"
+        everything_up_to_date: "הכול מעודכן"
+        forked_plugin: "תוסף רשמי עם שינויים"
+        last_updated: "עדכון אחרון:"
+        latest_version: "הגרסה העדכנית ביותר:"
+        main_branch_warning: "<b>אזהרה:</b> עותק ה־Discourse שלך עוקב אחר הענף ‚main’ (ראשי) שעלול להיות רעוע, <a href='%{url}'> אנו ממליצים לעקוב אחר הענף‚'latest’</a> (העדכני ביותר)."
+        navigation:
+          processes: תהליכים
+          versions: גרסאות
+        new_version_available: "יש גרסה חדשה!"
+        official_plugin: "תוסף רשמי"
+        outdated_image_header: "הגרסה שפועלת אצלך של הדמות של Discourse מיושנת"
+        outdated_image_info: "עדכונים דרך הדפדפן מושבתים עד להרצת הדמות העדכנית ביותר. כדי לעשות זאת יש להיכנס לשרת שלך דרך SSH ולהריץ את הפקודה:"
+        outdated_image_link: "מידע נוסף באתר התמיכה שלנו"
+        outdated_notice: "התקנת ה־Discourse שלך אינה עדכנית."
+        perform_update: "יש ללחוץ כאן כדי לעדכן."
+        repo_newest_version: "%{name} בגרסה העדכנית ביותר."
+        repository: "מאגר"
+        reset_update: "איפוס עדכון"
+        reset_warning: "אזהרה: יש לאפס עדכונים רק אם נכשלו ואינם פעילים. פעולה זו לא תבטל בניות שמתרחשות כרגע ורצוי להשתמש בה רק כמוצא אחרון."
+        start_updating: "התחלת העדכון"
+        status: "מצב"
+        up_to_date: "עדכני"
+        update_action: "עדכון"
+        update_all: "עדכון של הכול"
+        update_error: "מחילה, אירעה שגיאה בעדכון Discourse. נא לעיין ביומני התיעוד שלהלן."
+        update_everything: "עדכון של הכול"
+        update_repo: "עדכון %{name}"
+        update_successful: "העדכון הושלם בהצלחה!"
+        update_tab: "עדכון Discourse"
+        update_title: "עדכונים"
+        updating: "מתבצע עדכון…"
+        repo:
+          name: "שם"
+          commit_hash: "גיבוב הגשה"
+          last_updated: "עדכון אחרון"
+          latest_version: "הגרסה העדכנית ביותר"
+          status: "מצב"
+      logs:
+        staff_actions:
+          actions:
+            discourse_update: "עדכון לגרסה העדכנית ביותר"

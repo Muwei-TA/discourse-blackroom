@@ -1,3 +1,9 @@
+# BlackRoom Discourse instance
+
+This repository contains the Discourse core and BlackRoom instance source collected on 2026-10-13. See [source inventory and boundaries](docs/operations/instance-source.md) for the running revision, plugins, exported themes, maintenance scripts, and excluded production data.
+
+---
+
 <a href="https://www.discourse.org/">
   <img src="images/discourse-readme-logo.png" width="300px">
 </a>
